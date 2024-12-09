@@ -1,0 +1,6386 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Inter 28pt', sans-serif;
+    list-style: none;
+
+}
+button{
+    cursor: pointer;
+}
+header div.main{
+    display: flex;
+    gap:75%;
+    justify-content:center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+header div.main div.left{
+    display: flex;
+    gap:1%;
+    align-items: center;
+    cursor: pointer;
+}
+header div.main div.left p{
+    font-weight: 500;
+    font-size: 19px;
+    color:#334155;
+}
+header div.main div.right{
+    display: flex;
+    gap: 11%;
+    align-items: center;
+}
+header div.main div.right button.log{
+    height: 40px;
+    width:80px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#64748B;
+    background:none;
+    border: 1px solid #334155;  
+}
+header div.main div.right button.sign{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color:#334155;
+      
+}
+#spotlite{
+    border-top: 1px solid rgb(224, 224, 224);
+
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 90%;
+}
+#spotlite .wrapper div.head div.sleft{
+    margin-top: 10%;
+}
+#spotlite .wrapper div.head div.sleft h4{
+    width:55%;
+    font-weight:700;
+    font-size: 50px;
+    margin-bottom: 3%;
+    color:#0F172A;
+   
+}
+#spotlite .wrapper div.head{
+    display: flex;
+}
+#spotlite .wrapper div.head div.sleft p{
+    width:64%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color:#334155;
+    margin-bottom: 3%;  
+}
+#spotlite .wrapper div.head div.sleft button{
+    padding: 18px 23px;
+    background-color:#3B82F6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+#spotlite .wrapper div.head div.sright img{
+    width: 650px;
+    margin-top: 4%;
+}
+#list{
+    background-color:#F8FAFC; 
+    padding: 38px 0px; 
+    margin-top: 3%;  
+}
+#list .wrapper ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#list .wrapper ul li{
+    border-right: 5px solid #E2E8F0;
+    padding-right: 9%;
+    padding-left: 9%;
+
+   
+}
+#list .wrapper ul li:nth-child(1){
+    padding-left: 0;
+}
+#list .wrapper ul li:nth-child(4){
+    border-right:none;
+    padding-right: 0;
+}
+#list .wrapper ul li h3{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+}
+#list .wrapper ul li p{
+    font-weight: 400;
+    font-size: 14px;
+    color:#0F172A;  
+}
+#categories .wrapper div.cmain div.top p{
+    font-weight: 600;
+    font-size: 30px;
+    color:#0F172A;
+}
+#categories .wrapper div.cmain div.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#categories .wrapper div.cmain{
+    margin-top: 5%;
+}
+#categories .wrapper div.cmain div.top a{
+    color:#3B82F6;
+    font-weight: 500;
+    font-size: 16px;  
+}
+#categories .wrapper div.cmain div.top{
+    margin-bottom: 2%;
+}
+#categories .wrapper div.cmain div.bottom ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    justify-content: space-between;
+}
+#categories .wrapper div.cmain div.bottom ul li p{
+    font-weight: 600;
+    font-size: 22px;
+    color:#0F172A;
+    
+}
+#categories .wrapper div.cmain div.bottom ul li span{
+    font-weight: 400;
+    font-size: 16px;
+    color:#334155;    
+}
+#categories .wrapper div.cmain div.bottom ul li{
+    padding: 57px 140px;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+    border-radius: 14px;
+}
+#courses .wrapper div.smain{
+    margin-top: 5%;
+}
+#courses .wrapper div.smain div.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+#courses .wrapper div.smain div.up p{
+    font-weight: 600;
+    font-size: 30px;
+    color:#0F172A;
+}
+#courses .wrapper div.smain div.up a{
+    color:#3B82F6;
+    font-weight: 500;
+    font-size: 16px;  
+}
+#courses .wrapper div.smain div.down ul li img.bg{
+    width: 100%;
+}
+#courses .wrapper div.smain div.down ul li span{
+    display: flex;
+    align-items: center;
+    gap:6px;
+}
+#courses .wrapper div.smain div.down ul li{
+    padding: 36px 36px;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+    border-radius: 16px;
+    line-height: 31px;
+
+}
+#courses .wrapper div.smain div.down ul li div.image{
+    width: 327px;
+}
+#courses .wrapper div.smain div.down ul li p.first{
+    font-weight: 600;
+    font-size: 22px;  
+    color:#0F172A;  
+}
+#courses .wrapper div.smain div.down ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#courses .wrapper div.smain div.down ul.course_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#courses .wrapper div.smain div.down ul li small{
+    font-weight: 400;
+    font-size: 18px;
+    color:#334155;
+}
+#courses .wrapper div.smain div.down ul li nav{
+    font-weight: 600;
+    font-size: 15px;
+    color:#334155; 
+}
+#courses .wrapper div.smain div.down ul li p.value{
+    font-weight: 600;
+    font-size: 22px;
+}
+#instructor .wrapper div.imain{
+    margin-top: 5%;
+}
+#instructor .wrapper div.imain div.title p{
+    font-weight: 600;
+    font-size: 30px;
+    color:#0F172A;
+}
+#instructor .wrapper div.imain div.title a{
+    color:#3B82F6;
+    font-weight: 500;
+    font-size: 16px;   
+}
+#instructor .wrapper div.imain div.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+#instructor .wrapper div.imain div.Design div.first img{
+    width: 227px;
+    margin-bottom: 10%;
+}
+#instructor .wrapper div.imain div.Design div.third div.left{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:14%;
+}
+#instructor .wrapper div.imain div.Design div.third div.left img{
+    width:29px;
+}
+#instructor .wrapper div.imain div.Design div.third small{
+    font-size: 15px;
+    font-weight: 600;
+}
+#instructor .wrapper div.imain div.Design div.third div.right span{
+    font-size: 15px;
+    font-weight: 600;
+    color:#334155;
+    
+}
+#instructor .wrapper div.imain div.Design ul{
+    display: flex;
+    justify-content: space-between;
+}
+#instructor .wrapper div.imain div.Design div.third{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #E2E8F0;
+    padding-top: 12%;
+}
+#instructor .wrapper div.imain div.Design li{
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+    padding: 26px 26px;
+    width: 14%;
+    border-radius: 8px;
+
+}
+#instructor .wrapper div.imain div.Design div.second{
+    text-align: center;
+}
+#instructor .wrapper div.imain div.Design div.second h3{
+    font-size: 22px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-bottom: 3%;
+}
+#instructor .wrapper div.imain div.Design div.second p{
+    font-size: 19px;
+    font-weight: 400;
+    color:#334155;
+    margin-bottom: 11%;
+}
+#about{
+    background-color:#F8FAFC;
+    padding: 80px 0px;
+    margin-top: 5%;
+    
+}
+#about .wrapper div.amain div.tp p{
+    font-size: 31px;
+    font-weight: 600;
+    color: black;
+    width: 22%;
+}
+#about .wrapper div.amain div.tp nav{
+    display: flex;
+    gap:20%;
+}
+#about .wrapper div.amain div.tp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+#about .wrapper div.amain{
+   padding-top: 1%; 
+}
+#about .wrapper div.amain div.tp button.one{
+    width:76px;
+    height:57px;
+    background-color:#94A3B8;
+    border: none;
+    border-radius: 8px;
+    background-image: url(../images/short-arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18%;
+    
+}
+#about .wrapper div.amain div.tp button.two{
+    width:76px;
+    height:57px;
+    background-color:#94A3B8;
+    border: none;
+    border-radius: 8px;
+    background-image: url(../images/short-arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18%;
+}
+#about .wrapper div.amain div.dn div.Dsn p{
+   width: 90%;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 400;
+   color: black;
+   margin-bottom: 10px;
+
+}
+#about .wrapper div.amain div.dn div.Dsn img.ft{
+    width: 10%;
+    margin-bottom: 4%;
+}
+#about .wrapper div.amain div.dn div.Dsn div.face img{
+    width: 78px;
+    height: 75px;
+    border-radius: 50px;
+}
+#about .wrapper div.amain div.dn div.Dsn div.face{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+#about .wrapper div.amain div.dn div.Dsn{
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+    width: 500px;
+    padding:28px 27px;
+    border-radius: 16px;
+   
+}
+#about .wrapper div.amain div.dn{
+    display: flex;
+    position: relative;
+    width: 100%;
+    transition: transform 0.5s ease;
+    justify-content: space-between;
+}
+#about .wrapper div.amain div.dn div.Dsn div.face h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+    
+}
+#about .wrapper div.amain div.dn div.Dsn div.face span{
+    font-size: 15px;
+    font-weight: 400;
+    color:#334155;
+}
+#journey .wrapper div.lmain div.tfirst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#journey .wrapper div.lmain div.tlast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#journey .wrapper div.lmain div.tfirst div.text h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2%;
+}
+#journey .wrapper div.lmain div.tfirst div.text p{
+    width:57%;
+    font-size: 18px;
+    font-weight: 400;
+    color:#1D2939;
+    line-height: 26px;
+    margin-bottom: 2%;
+}
+#journey .wrapper div.lmain div.tfirst div.text button{
+    padding: 15px 40px;
+    color: white;
+    padding-left: 15px;
+    background-color: #020617;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: 246px;
+
+    
+}
+#journey .wrapper div.lmain div.tlast div.style h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2%;
+}
+#journey .wrapper div.lmain div.tlast div.style p{
+    width:68%;
+    font-size: 18px;
+    font-weight: 400;
+    color:#1D2939;
+    line-height: 26px;
+    margin-bottom: 2%;
+}
+#journey .wrapper div.lmain{
+    margin-top: 5%;
+}
+#journey .wrapper div.lmain div.tlast div.style button{
+    padding: 15px 40px;
+    color: white;
+    padding-left: 15px;
+    background-color: #020617;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: 165px;  
+}
+footer{
+    background-color:#1E293B;
+    
+}
+footer .wrapper div.left img{
+    width:130px;
+    margin-bottom: 3%;
+}
+footer .wrapper div.left p{
+    color: #CBD5E1;
+    font-size: 17px;
+    font-weight: 400;
+    width: 492px;
+    line-height: 25px;
+
+}
+footer .wrapper div.fmain{
+    display: flex;
+    gap:17%;
+    padding-top: 7%;
+    margin-top: 4%;
+    padding-bottom: 7%;
+}
+footer .wrapper div.fmain div.right{
+    display: flex;
+    gap:100px;
+   
+}
+footer .wrapper div.fmain div.right div.Contact ul.social{
+    display: flex;
+    gap:22px;
+}
+footer .wrapper div.fmain div.right h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:#F1F5F9;
+    margin-bottom: 2%; 
+}
+footer .wrapper div.fmain div.right li{
+   line-height: 33px;
+   color:#CBD5E1;
+   font-size: 18px;
+   font-weight: 500;
+}
+footer .wrapper div.fmain div.right li img{
+    width: 50px;
+    margin-top: 37%;
+    cursor: pointer;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter 28pt';
+}
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/') format('woff2'),
+        url('../font/Inter28pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ThinItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-MediumItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Regular.woff2') format('woff2'),
+        url('../font/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('../font/Inter28pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Light.woff2') format('woff2'),
+        url('../font/Inter28pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-LightItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Medium.woff2') format('woff2'),
+        url('../font/Inter28pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Italic.woff2') format('woff2'),
+        url('../font/Inter28pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraBold.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-BoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraLight.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Bold.woff2') format('woff2'),
+        url('../font/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-BlackItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-ThinItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Thin.woff2') format('woff2'),
+        url('../font/Inter24pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Black.woff2') format('woff2'),
+        url('../font/Inter28pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-SemiBold.woff2') format('woff2'),
+        url('../font/Inter24pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Medium.woff2') format('woff2'),
+        url('../font/Inter24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-MediumItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Regular.woff2') format('woff2'),
+        url('../font/Inter24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Italic.woff2') format('woff2'),
+        url('../font/Inter24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Light.woff2') format('woff2'),
+        url('../font/Inter24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-LightItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-ExtraLight.woff2') format('woff2'),
+        url('../font/Inter24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 90%;
+}
+button{
+    cursor: pointer;
+}
+header div.main1{
+    display: flex;
+    gap:75%;
+    justify-content:center;
+    margin-top: 1%;
+    margin-bottom: 4px;
+}
+header div.main1 div.left{
+    display: flex;
+    gap:1%;
+    align-items: center;
+    cursor: pointer;
+}
+header div.main1 div.left p{
+    font-weight: 500;
+    font-size: 19px;
+    color:#334155;
+}
+header div.main1 div.right ul{
+    display: flex;
+    align-items: center;
+    gap:23px;
+}
+header div.main1 div.right ul li img{
+    width:25px;
+}
+header div.main1 div.right ul li:nth-child(4){
+    padding: 8px 14px;
+    background-color: #334155;
+    color: white;
+    border-radius:50% ;
+    font-size: 16px;
+    font-weight: 500;
+}
+#spotlight{
+    border-top: 1px solid rgb(224, 224, 224);
+}
+#spotlight .wrapper div.main{
+    position: relative;
+}
+#spotlight .wrapper div.main div.left ul.one{
+    display: flex;
+    gap:10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#spotlight .wrapper div.main div.left ul.one li img{
+    width:25px;
+}
+#spotlight .wrapper div.main div.left ul.one li{
+    color:#334155;
+    font-size: 17px;
+    font-weight: 400;
+}
+#spotlight .wrapper div.main div.left ul.one li:nth-child(5){
+    color:#2563EB;
+    
+}
+#spotlight .wrapper div.main div.left h3{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#spotlight .wrapper div.main div.left p{
+    font-size: 17px;
+    font-weight: 400;
+    color:#334155;
+    width:767px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 21px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li{
+    font-size:14px;
+    font-weight: 400;
+    color:#334155;
+    
+}
+#spotlight .wrapper div.main div.left{
+    width:50%;
+    margin-top: 45px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li:nth-child(1){
+    font-size: 17px;
+    font-weight:500;
+    color:#FEC84B;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li img{
+    width:98px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li:nth-child(4){
+    display: inline-block;
+    font-size: 12px;
+    height: 15px;
+    color:#334155;
+}
+#spotlight .wrapper div.main div.left div.review ul.two{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    margin-bottom: 20px;
+}
+#spotlight .wrapper div.main div.left div.review ul.two li:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(51, 65, 85, 1);  
+}
+#spotlight .wrapper div.main div.left div.review ul.two li:nth-child(2) b{
+    font-weight: normal;
+    font-size: 15px;
+    color:rgba(37, 99, 235, 1); 
+}
+#spotlight .wrapper div.main div.left div.review ul.three{
+    display: flex;
+    align-items: center;
+    gap:9px;
+    padding-bottom: 4%;
+}
+#spotlight .wrapper div.main div.left div.review ul.three li:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(51, 65, 85, 1);
+    
+}
+#spotlight{
+    background-color: rgba(248, 250, 252, 1);
+    
+}
+#spotlight .wrapper div.main div.right{
+    width: 401px;
+    box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+    border-radius: 16px;
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    right:0px;
+}
+
+#spotlight .wrapper div.main div.right div.price ul{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 7%;
+}
+#spotlight .wrapper div.main div.right div.bottom ul{
+    display: flex;
+    gap:20px;
+    margin-bottom: 6%;
+}
+#spotlight .wrapper div.main div.right div.price ul li:nth-child(1){
+    font-size: 24px;
+    font-weight: 600;
+}
+#spotlight .wrapper div.main div.right div.price ul del{
+    text-decoration:line-through;
+    font-size: 19px;
+    font-weight: 600;
+    color:rgba(148, 163, 184, 1);
+}
+#spotlight .wrapper div.main div.right div.price ul li:nth-child(3){
+    font-size: 22px;
+    font-weight: 600;
+    color:rgba(22, 163, 74, 1);
+}
+#spotlight .wrapper div.main div.right div.mid button.b1{
+    padding: 16px 140px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+#spotlight .wrapper div.main div.right div.mid button.b2{
+    padding: 14px 149px;
+    border-radius: 8px;
+    border: 1px solid black;
+    color:black;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#spotlight .wrapper div.main div.right div.mid{
+    padding-bottom: 4px;
+}
+#spotlight .wrapper div.main div.right div.bottom{
+    padding-top: 30px;
+    margin-left: 6%;
+}
+#spotlight .wrapper div.main div.right div.rightmain{
+    padding: 22px;
+}
+#spotlight .wrapper div.main div.right div.bottommain{
+    border-top: 1px solid #E2E8F0;
+}
+#spotlight .wrapper div.main div.right div.bottom p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+#spotlight .wrapper div.main div.right div.bottom img{
+    width:51px;
+}
+#description .wrapper ul.dl{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:24px;
+    width:1259px;
+    border-bottom: 1px solid #E2E8F0;
+    margin-top: 3%;
+    padding-bottom: 22px;
+}
+#description .wrapper ul.dl li{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 21px 54px;
+    border:1px solid #E2E8F0;
+    border-radius: 8px;
+    color:#0F172A;  
+}
+#description .wrapper ul.dl li:nth-child(1){
+    background-color:#EFF6FF;
+}
+#description .wrapper ul.dl li:hover{
+    background-color:#EFF6FF;
+    cursor: pointer;
+    
+}
+#description .wrapper div.courses{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#description .wrapper div.courses h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-bottom: 10px;
+}
+#description .wrapper div.courses p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width: 810px;
+    line-height: 24.6px;
+    
+}
+#description .wrapper div.certi h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-bottom: 10px;
+}
+#description .wrapper div.certi{
+    width:1275px;
+    border-bottom: 1px solid #E2E8F0;
+}
+#description .wrapper div.certi p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width: 777px;
+    line-height: 24.6px;
+    padding-bottom: 1%;
+    
+}
+#description .wrapper div.dbottom{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#description .wrapper div.dbottom ul li{
+  display: flex;
+  gap:5px;
+  align-items: center;
+  line-height: 2px;
+}
+#description .wrapper div.dtop h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+}
+#description .wrapper div.dtop h2{
+    font-size: 20px;
+    font-weight: 600;
+    color:#2563EB;
+    margin-bottom: 11px;
+    
+}
+#description .wrapper div.dtop{
+    padding-bottom: 16px;
+}
+#description .wrapper div.dtop small{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    
+}
+#description .wrapper div.dbottom ul li img{
+    padding-bottom: 4px;
+}
+#description .wrapper div.dbottom ul li span{
+    font-size: 14px;
+    font-weight: 400;
+    color:#0F172A;
+    
+}
+#description .wrapper div.lp{
+    border-bottom: 1px solid #E2E8F0;
+    width: 1275px;
+}
+#description .wrapper div.lp p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width: 782px;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    line-height: 24.6px;
+    
+}
+#description .wrapper div.Syllabus{
+
+}
+#description .wrapper div.Syllabus div.main div.front h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#description .wrapper div.Syllabus div.main div.back ul li{
+    display: flex;
+    justify-content: space-between;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.left{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.right{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+#description .wrapper div.Syllabus div.main div.back ul{
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.left p{
+    font-size: 18px;
+    font-weight: 600;
+    color:#0F172A;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.right small{
+    font-size: 14px;
+    font-weight: 400;
+    color:#334155;
+}
+#description .wrapper div.Syllabus div.main div.back ul li {
+    border-bottom: 1px solid #E2E8F0;
+    padding: 21px 21px;
+    
+}
+#description .wrapper div.Syllabus div.main{
+    width: 1235px;  
+    padding-bottom: 2%;
+}
+#review{
+    padding-bottom: 20px;
+}
+#review .wrapper div.rmain div.rtop h3{
+    border-top: 1px solid  #E2E8F0;
+    width: 1278px;
+    padding-top: 2%;
+    font-size: 21px;
+    font-weight: 600;
+    color: #0F172A;
+    padding-bottom: 2%;
+}
+#review .wrapper div.rmain{
+    width: 1215px;
+}
+#review .wrapper div.rmain div.rbottom{
+    display: flex;
+    justify-content: space-between;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top{
+    display: flex;
+    gap: 135px;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 22px 22px;
+    margin-bottom: 3%;
+
+}
+#review .wrapper div.rmain div.rbottom div.rright a.button{
+    color: #0F172A;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #0F172A;
+    border-radius: 8px;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.left ul li{
+    display: flex;
+    align-items: center;
+    gap:13px;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right ul li{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    margin-bottom: 3%;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.left ul li p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F172A;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width:570px;
+    line-height: 25.6px;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.first1 li{
+    display: flex;
+    gap:8px;
+    align-items: center;
+    padding-bottom: 10%;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small{
+    font-size: 14px;
+    font-weight: 500;
+    color:#334155;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.second2 li{
+    display: flex;
+    align-items: center;
+    line-height: 28.6px;
+    gap:8px;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.second2 li span{
+    font-size: 14px;
+    font-weight: 400;
+    color:#334155;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:#0F172A;
+    
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right ul li h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F172A;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right ul li small{
+    font-size: 14px;
+    font-weight: 400;
+    color:#334155;
+    margin-left: 3%;
+    
+}
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/') format('woff2'),
+        url('../font/Inter28pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-ThinItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-MediumItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-Regular.woff2') format('woff2'),
+        url('../font/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('../font/Inter28pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-Light.woff2') format('woff2'),
+        url('../font/Inter28pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-LightItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-Medium.woff2') format('woff2'),
+        url('../font/Inter28pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-Italic.woff2') format('woff2'),
+        url('../font/Inter28pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-ExtraBold.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-BoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-ExtraLight.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-Bold.woff2') format('woff2'),
+        url('../font/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-BlackItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-ThinItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-Thin.woff2') format('woff2'),
+        url('../font/Inter24pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 28pt';
+    src: url('../font/Inter28pt-Black.woff2') format('woff2'),
+        url('../font/Inter28pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-SemiBold.woff2') format('woff2'),
+        url('../font/Inter24pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-Medium.woff2') format('woff2'),
+        url('../font/Inter24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-MediumItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-Regular.woff2') format('woff2'),
+        url('../font/Inter24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-Italic.woff2') format('woff2'),
+        url('../font/Inter24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-Light.woff2') format('woff2'),
+        url('../font/Inter24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-LightItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '../font/Inter 24pt';
+    src: url('../font/Inter24pt-ExtraLight.woff2') format('woff2'),
+        url('../font/Inter24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* responsive */
+@media all and (max-width: 1880px){
+    #categories .wrapper div.cmain div.bottom ul li {
+        padding: 57px 137px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 14px;
+    }
+    header div.main div.right {
+        display: flex;
+        gap: 11%;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+    #courses .wrapper div.smain div.down ul li {
+        padding: 36px 34px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 16px;
+        line-height: 31px;
+    }
+    #about .wrapper div.amain div.dn div.Dsn {
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        width: 500px;
+        padding: 28px 20px;
+        border-radius: 16px;
+    }
+    #description .wrapper div.certi p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #334155;
+        width: 777px;
+        line-height: 24.6px;
+        padding-bottom: 2%;
+    }
+    #description .wrapper div.courses {
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+}
+@media all and (min-width: 1500px) and (max-width: 1879px){
+    #categories .wrapper div.cmain div.bottom ul li {
+        padding: 30px 99px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 14px;
+    }
+    #description .wrapper div.courses {
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    header div.main1 {
+        display: flex;
+        gap: 72%;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 4px;
+    }
+    #spotlight .wrapper div.main div.left h3 {
+        font-size: 44px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        width: 818px;
+    }
+    #description .wrapper ul.dl {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+        width: 894px;
+        border-bottom: 1px solid #E2E8F0;
+        margin-top: 3%;
+        padding-bottom: 22px;
+    }
+    #spotlight .wrapper div.main div.left p {
+        font-size: 17px;
+        font-weight: 400;
+        color: #334155;
+        width: 747px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+    header div.main div.right {
+        display: flex;
+        gap: 11%;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+    #courses .wrapper div.smain div.down ul li {
+        padding: 22px 22px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 16px;
+        line-height: 31px;
+    }
+    #about .wrapper div.amain div.dn div.Dsn {
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        width: 395px;
+        padding: 28px 19px;
+        border-radius: 16px;
+    }
+    #spotlite .wrapper div.head div.sright img {
+        width: 577px;
+        margin-top: 4%;
+    }
+    #spotlite .wrapper div.head div.sleft h4 {
+        width: 76%;
+        font-weight: 700;
+        font-size: 51px;
+        margin-bottom: 3%;
+        color: #0F172A;
+    }
+    #spotlite .wrapper div.head div.sleft p {
+        width: 83%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #334155;
+        margin-bottom: 3%;
+    }
+    #spotlite .wrapper div.head div.sleft button {
+        padding: 17px 41px;
+        background-color: #3B82F6;
+        border: none;
+        color: white;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #list .wrapper ul li {
+        border-right: 5px solid #E2E8F0;
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+    #courses .wrapper div.smain div.down ul li div.image {
+        width: 265px;
+    }
+    #courses .wrapper div.smain div.down ul {
+        gap: 2.6%;
+        display: flex;
+        align-items: center;
+    }
+    #courses .wrapper div.smain div.down ul li p.first {
+        font-weight: 600;
+        font-size: 21px;
+        color: #0F172A;
+    }
+    #courses .wrapper div.smain div.down ul li p.value {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    #instructor .wrapper div.imain div.Design div.first img {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    #about .wrapper div.amain div.tp p {
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        width: 22%;
+    }
+    footer .wrapper div.fmain div.right {
+        display: flex;
+        gap: 58px;
+    }
+    footer .wrapper div.fmain {
+        display: flex;
+        gap: 15%;
+        padding-top: 7%;
+        margin-top: 4%;
+        padding-bottom: 7%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn p {
+        width: 441px;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 10px;
+    }
+    #about .wrapper div.amain div.dn div.Dsn img.ft {
+        width: 9%;
+        margin-bottom: 4%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face img {
+        width: 75px;
+        height: 72px;
+        border-radius: 50px;
+    }
+    #instructor .wrapper div.imain div.Design div.second h3 {
+        font-size: 21px;
+        font-weight: 600;
+        color: #0F172A;
+        margin-bottom: 3%;
+    }
+    #instructor .wrapper div.imain div.Design div.second p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #334155;
+        margin-bottom: 11%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #334155;
+    }
+    #journey .wrapper div.lmain div.tfirst {
+        display: flex;
+        align-items: center;
+        gap: 21%;
+    }
+   
+}
+@media all and (min-width: 1200px) and (max-width: 1499px){
+    #categories .wrapper div.cmain div.bottom ul li {
+        padding: 29px 70px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 14px;
+    }
+    #spotlight .wrapper div.main div.right div.mid button.b1 {
+        padding: 16px 118px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 19px;
+    }
+    #spotlight .wrapper div.main div.right div.mid button.b2 {
+        padding: 14px 126px;
+        height: 47px;
+        border-radius: 8px;
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #spotlight .wrapper div.main div.left p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #334155;
+        width: 703px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+    #description .wrapper ul.dl {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+        width: 661px;
+        border-bottom: 1px solid #E2E8F0;
+        margin-top: 3%;
+        padding-bottom: 22px;
+    }
+    #description .wrapper ul.dl li {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 18px 24px;
+        border: 1px solid #E2E8F0;
+        border-radius: 8px;
+        color: #0F172A;
+    }
+    #spotlight .wrapper div.main div.left h3 {
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        width: 719px;
+    }
+    #description .wrapper div.courses p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #334155;
+        width: 779px;
+        line-height: 24.6px;
+    }
+    #spotlight .wrapper div.main div.right div.price ul {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 7%;
+        margin-bottom: 6%;
+    }
+    #spotlight .wrapper div.main div.right div.mid button.b1 {
+        padding: 16px 118px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+    #spotlight .wrapper div.main div.right div.bottom {
+        padding-top: 18px;
+        margin-left: 6%;
+    }
+    #spotlight .wrapper div.main div.right div.bottom img {
+        width: 50px;
+    }
+    #spotlight .wrapper div.main div.right div.bottom ul {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 2%;
+    }
+    #description .wrapper div.certi {
+        width: 795px;
+        border-bottom: 1px solid #E2E8F0;
+    }
+    #description .wrapper div.lp {
+        border-bottom: 1px solid #E2E8F0;
+        width: 832px;
+    }
+    #description .wrapper div.Syllabus div.main div.back ul {
+        border: 1px solid #E2E8F0;
+        border-radius: 8px;
+        width: 778px;
+    }
+    #review .wrapper div.rmain div.rbottom {
+        display: flex;
+        justify-content: start;
+        gap: 80px;
+    }
+    #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3 {
+        font-size: 19px;
+        font-weight: 600;
+        color: #0F172A;
+    }
+    #review .wrapper div.rmain div.rbottom div.rright div.top {
+        display: flex;
+        gap: 60px;
+        border: 1px solid #E2E8F0;
+        border-radius: 16px;
+        padding: 22px 22px;
+        margin-bottom: 3%;
+    }
+    #review .wrapper div.rmain div.rtop{
+        width:1060px;
+    }
+    #description .wrapper div.Syllabus div.main {
+        width: 1018px;
+        padding-bottom: 2%;
+    }
+    #review .wrapper div.rmain div.rtop h3 {
+        border-top: 1px solid #E2E8F0;
+        width: 832px;
+        padding-top: 3%;
+        font-size: 21px;
+        font-weight: 600;
+        color: #0F172A;
+        padding-bottom: 3%;
+    }
+    #spotlight .wrapper div.main div.right {
+        width: 356px;
+        box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+        border-radius: 16px;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        right: 0px;
+    }
+    #categories .wrapper div.cmain div.bottom ul li img {
+        width: 90px;
+    }
+    header div.main1 {
+        display: flex;
+        gap: 68%;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 4px;
+    }
+    header div.main div.right {
+        display: flex;
+        gap: 11%;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+    #categories .wrapper div.cmain div.bottom ul li p {
+        font-weight: 600;
+        font-size: 20px;
+        color: #0F172A;
+    }
+    #categories .wrapper div.cmain div.bottom ul li span {
+        font-weight: 400;
+        font-size: 15px;
+        color: #334155;
+    } 
+    #courses .wrapper div.smain div.down ul li {
+        padding: 15px 15px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 16px;
+        line-height: 31px;
+    }
+    #about .wrapper div.amain div.dn div.Dsn {
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        width: 307px;
+        padding: 28px 19px;
+        border-radius: 16px;
+    }
+    #spotlite .wrapper div.head div.sright img {
+        width: 440px;
+        margin-top: 4%;
+    }
+    #spotlite .wrapper div.head div.sleft h4 {
+        width: 90%;
+        font-weight: 700;
+        font-size: 47px;
+        margin-bottom: 3%;
+        color: #0F172A;
+    }
+    #spotlite .wrapper div.head div.sleft p {
+        Width: 530px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #334155;
+        margin-bottom: 3%;
+    }
+    #spotlite .wrapper div.head div.sleft button {
+        padding: 16px 16px;
+        background-color: #3B82F6;
+        border: none;
+        color: white;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #list .wrapper ul li {
+        border-right: 5px solid #E2E8F0;
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+    #courses .wrapper div.smain div.down ul li div.image {
+        width: 224px;
+    }
+    #review .wrapper div.rmain {
+        width: 1094px;
+    }
+    #courses .wrapper div.smain div.down ul {
+        gap: 2.6%;
+        display: flex;
+        align-items: center;
+    }
+    #courses .wrapper div.smain div.down ul li p.first {
+        font-weight: 600;
+        font-size: 16px;
+        color: #0F172A;
+        width: 204px;
+    }
+    #courses .wrapper div.smain div.down ul li p.value {
+        font-weight: 600;
+        font-size: 17px;
+    }
+    #instructor .wrapper div.imain div.Design div.first img {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    #about .wrapper div.amain div.tp p {
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        width: 31%;
+    }
+    footer .wrapper div.fmain div.right {
+        display: flex;
+        gap: 58px;
+    }
+    footer .wrapper div.fmain {
+        display: flex;
+        gap: 9%;
+        padding-top: 7%;
+        margin-top: 4%;
+        padding-bottom: 7%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn p {
+        width: 344px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 10px;
+    }
+    #about .wrapper div.amain div.dn div.Dsn img.ft {
+        width: 9%;
+        margin-bottom: 4%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face img {
+        width: 65px;
+        border-radius: 50px;
+    }
+    #instructor .wrapper div.imain div.Design div.second h3 {
+        font-size: 19px;
+        font-weight: 600;
+        color: #0F172A;
+        margin-bottom: 3%;
+    }
+    #instructor .wrapper div.imain div.Design div.second p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #334155;
+        margin-bottom: 11%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #334155;
+    }
+    #journey .wrapper div.lmain div.tfirst {
+        display: flex;
+        align-items: center;
+        gap: 16%;
+    }
+    header div.main {
+        display: flex;
+        gap: 65%;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 4px;
+    }
+    #list .wrapper ul {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 780px;
+    }
+    #list .wrapper ul li p {
+        font-weight: 400;
+        font-size: 14px;
+        width: 180px;
+        color: #0F172A;
+    }
+    #list {
+        background-color: #F8FAFC;
+        padding: 38px 0px;
+        margin-top: 7%;
+    }
+    #categories .wrapper div.cmain div.top p {
+        font-weight: 600;
+        font-size: 27px;
+        color: #0F172A;
+    }
+    #categories .wrapper div.cmain div.bottom ul {
+        gap: 4%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: 30px;
+    }
+    #courses .wrapper div.smain div.up p {
+        font-weight: 600;
+        font-size: 27px;
+        color: #0F172A;
+    }
+    #courses .wrapper div.smain div.down ul li small {
+        font-weight: 400;
+        font-size: 12px;
+        color: #334155;
+    }
+    #courses .wrapper div.smain div.down ul li nav {
+        font-weight: 600;
+        font-size: 12px;
+        color: #334155;
+    }
+    #instructor .wrapper div.imain div.Design div.third div.right span {
+        font-size: 12px;
+        font-weight: 600;
+        color: #334155;
+    }
+    #instructor .wrapper div.imain div.Design div.third small {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    #instructor .wrapper div.imain div.Design div.third div.left img {
+        width: 17px;
+    }
+    #instructor .wrapper div.imain div.Design li {
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        padding: 17px 17px;
+        width: 14%;
+        border-radius: 8px;
+    }
+    #instructor .wrapper div.imain div.Design ul {
+        gap: 4%;
+        display: flex;
+    }
+    #about .wrapper div.amain div.tp nav {
+        display: flex;
+        gap: 15%;
+    }
+    #about .wrapper div.amain div.tp button.one {
+        width: 73px;
+        height: 42px;
+        background-color: #94A3B8;
+        border: none;
+        border-radius: 8px;
+        background-image: url(../images/short-arrow-left.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 18%;
+    }
+    #about .wrapper div.amain div.tp button.two {
+        width: 73px;
+        height: 42px;
+        background-color: #94A3B8;
+        border: none;
+        border-radius: 8px;
+        background-image: url(../images/short-arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 18%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face img{
+        height: 57px;
+        border-radius: 50px;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text p {
+        width: 552px;
+        font-size:17px;
+        font-weight: 400;
+        color: #1D2939;
+        line-height: 26px;
+        margin-bottom: 2%;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text h3 {
+        font-size: 29px;
+        font-weight: 600;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text button {
+        padding: 13px 40px;
+    }
+    #journey .wrapper div.lmain div.tlast div.style h3 {
+        font-size: 29px;
+        font-weight: 600;
+        color: black;
+        margin-bottom: 2%;
+    }
+    #journey .wrapper div.lmain div.tlast div.style p {
+        width: 540px;
+        font-size: 17px;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text button {
+        padding: 15px 40px;
+        color: white;
+        padding-left: 15px;
+        background-color: #020617;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        background-image: url(../images/arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: 247px;
+    }   
+    #journey .wrapper div.lmain div.tlast div.style button {
+        padding: 12px 40px;
+        color: white;
+        padding-left: 15px;
+        background-color: #020617;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        background-image: url(../images/arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: 167px;
+    }
+    #journey .wrapper div.lmain div.tlast {
+        display: flex;
+        align-items: center;
+        gap: 10%;
+    }
+    
+    footer .wrapper div.left p {
+        color: #CBD5E1;
+        font-size: 15px;
+        font-weight: 400;
+        width: 427px;
+        line-height: 25px;
+    }     
+    footer .wrapper div.left img {
+        width: 110px;
+        margin-bottom: 3%;
+    } 
+    footer .wrapper div.right div.help ul{
+        width: 101px;
+    } 
+    footer .wrapper div.fmain div.right li {
+        line-height: 33px;
+        color: #CBD5E1;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    footer .wrapper div.fmain div.right h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #F1F5F9;
+        margin-bottom: 2%;
+    }  
+    footer .wrapper div.fmain div.right li img {
+        width: 39px;
+        margin-top: 37%;
+        cursor: pointer;
+    }
+    #description .wrapper div.lp p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #334155;
+        width: 782px;
+        margin-top: 1%;
+        padding-bottom: 2%;
+        line-height: 24.6px;
+    }
+    #description .wrapper div.Syllabus div.main div.front h3 {
+        font-size: 21px;
+        font-weight: 600;
+        color: #0F172A;
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+    #spotlight .wrapper div.main div.right div.rightmain div.top img {
+        width: 315px;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1199px){
+    #categories .wrapper div.cmain div.bottom ul li {
+        padding: 18px 54px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 14px;
+    }
+    #categories .wrapper div.cmain div.bottom ul li img {
+        width: 83px;
+    }
+    header div.main div.right {
+        display: flex;
+        gap: 11%;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+    #categories .wrapper div.cmain div.bottom ul li p {
+        font-weight: 600;
+        font-size: 20px;
+        color: #0F172A;
+    }
+    #categories .wrapper div.cmain div.bottom ul li span {
+        font-weight: 400;
+        font-size: 15px;
+        color: #334155;
+    } 
+    #courses .wrapper div.smain div.down ul li {
+        padding: 14px 4px;
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        border-radius: 16px;
+        line-height: 31px;
+    }
+    #about .wrapper div.amain div.dn div.Dsn {
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        width: 289px;
+        padding: 28px 6px;
+        border-radius: 16px;
+    }
+    #spotlite .wrapper div.head div.sright img {
+        width: 373px;
+        margin-top: 4%;
+    }
+    #spotlite .wrapper div.head div.sleft h4 {
+        width: 89%;
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 3%;
+        color: #0F172A;
+    }
+    #list .wrapper ul li h3 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 55px;
+    }
+    #spotlite .wrapper div.head div.sleft p {
+        Width: 486px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #334155;
+        margin-bottom: 3%;
+    }
+    #spotlite .wrapper div.head div.sleft button {
+        padding: 13px 9px;
+        background-color: #3B82F6;
+        border: none;
+        color: white;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #list .wrapper ul li {
+        border-right: 5px solid #E2E8F0;
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+    #courses .wrapper div.smain div.down ul li div.image {
+        width: 203px;
+    }
+    #courses .wrapper div.smain div.down ul {
+        gap: 2.6%;
+        display: flex;
+        align-items: center;
+    }
+    #courses .wrapper div.smain div.down ul li p.first {
+        font-weight: 600;
+        font-size: 16px;
+        color: #0F172A;
+        width: 204px;
+    }
+    #courses .wrapper div.smain div.down ul li p.value {
+        font-weight: 600;
+        font-size: 17px;
+    }
+    #instructor .wrapper div.imain div.Design div.first img {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    #about .wrapper div.amain div.tp p {
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        width: 37%;
+    }
+    footer .wrapper div.fmain div.right {
+        display: flex;
+        gap: 27px;
+    }
+    footer .wrapper div.fmain {
+        display: flex;
+        gap: 5%;
+        padding-top: 7%;
+        margin-top: 4%;
+        padding-bottom: 7%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn p {
+        width: 318px;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 10px;
+    }
+    #about .wrapper div.amain div.dn div.Dsn img.ft {
+        width: 8%;
+        margin-bottom: 4%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face img {
+        width: 58px;
+        border-radius: 50px;
+    }
+    #instructor .wrapper div.imain div.Design div.second h3 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #0F172A;
+        margin-bottom: 3%;
+    }
+    #instructor .wrapper div.imain div.Design div.second p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #334155;
+        margin-bottom: 11%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face span {
+        font-size: 13px;
+        font-weight: 400;
+        color: #334155;
+    }
+    #journey .wrapper div.lmain div.tfirst {
+        display: flex;
+        align-items: center;
+        gap: 12%;
+    }
+    header div.main {
+        display: flex;
+        gap: 65%;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 4px;
+    }
+    #list .wrapper ul {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+    }
+    #list .wrapper ul li p {
+        font-weight: 400;
+        font-size: 13px;
+        width: 180px;
+        color: #0F172A;
+    }
+    #list {
+        background-color: #F8FAFC;
+        padding: 38px 0px;
+        margin-top: 7%;
+    }
+    #categories .wrapper div.cmain div.top p {
+        font-weight: 600;
+        font-size: 27px;
+        color: #0F172A;
+    }
+    #categories .wrapper div.cmain div.bottom ul {
+        gap: 4%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: 30px;
+    }
+    #courses .wrapper div.smain div.up p {
+        font-weight: 600;
+        font-size: 27px;
+        color: #0F172A;
+    }
+    #courses .wrapper div.smain div.down ul li small {
+        font-weight: 400;
+        font-size: 12px;
+        color: #334155;
+    }
+    #courses .wrapper div.smain div.down ul li nav {
+        font-weight: 600;
+        font-size: 12px;
+        color: #334155;
+    }
+    #instructor .wrapper div.imain div.Design div.third div.right span {
+        font-size: 10px;
+        font-weight: 600;
+        color: #334155;
+    }
+    #instructor .wrapper div.imain div.Design div.third small {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #instructor .wrapper div.imain div.Design div.third div.left img {
+        width: 14px;
+    }
+    #instructor .wrapper div.imain div.Design li {
+        box-shadow: 0px 0px 8px 0px #3B82F61F;
+        padding: 17px 17px;
+        width: 14%;
+        border-radius: 8px;
+    }
+    #instructor .wrapper div.imain div.Design ul {
+        gap: 4%;
+        display: flex;
+    }
+    #about .wrapper div.amain div.tp nav {
+        display: flex;
+        gap: 15%;
+    }
+    #about .wrapper div.amain div.tp button.one {
+        width: 73px;
+        height: 42px;
+        background-color: #94A3B8;
+        border: none;
+        border-radius: 8px;
+        background-image: url(../images/short-arrow-left.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 18%;
+    }
+    #about .wrapper div.amain div.tp button.two {
+        width: 73px;
+        height: 42px;
+        background-color: #94A3B8;
+        border: none;
+        border-radius: 8px;
+        background-image: url(../images/short-arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 18%;
+    }
+    #about .wrapper div.amain div.dn div.Dsn div.face img{
+        height: 55px;
+        border-radius: 50px;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text p {
+        width: 487px;
+        font-size:15px;
+        font-weight: 400;
+        color: #1D2939;
+        line-height: 26px;
+        margin-bottom: 2%;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text h3 {
+        font-size: 29px;
+        font-weight: 600;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text button {
+        padding: 13px 40px;
+    }
+    #journey .wrapper div.lmain div.tlast div.style h3 {
+        font-size: 29px;
+        font-weight: 600;
+        color: black;
+        margin-bottom: 2%;
+    }
+    #journey .wrapper div.lmain div.tlast div.style p {
+        width: 540px;
+        font-size: 17px;
+    }
+    #journey .wrapper div.lmain div.tfirst div.text button {
+        padding: 10px 37px;
+        color: white;
+        padding-left: 15px;
+        background-color: #020617;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        background-image: url(../images/arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: 247px;
+    }   
+    #journey .wrapper div.lmain div.tlast div.style button {
+        padding: 11px 40px;
+        color: white;
+        padding-left: 15px;
+        background-color: #020617;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        background-image: url(../images/arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: 167px;
+    }
+    #journey .wrapper div.lmain div.tlast {
+        display: flex;
+        align-items: center;
+    }
+    footer .wrapper div.left p {
+        color: #CBD5E1;
+        font-size: 13px;
+        font-weight: 400;
+        width: 427px;
+        line-height: 25px;
+    }     
+    footer .wrapper div.left img {
+        width: 100px;
+        margin-bottom: 3%;
+    } 
+    #courses .wrapper div.smain div.down ul {
+        gap: 21px;
+    }
+    #courses .wrapper div.smain div.down ul li span img{
+        width: 82px;
+    }
+    footer .wrapper div.right div.help ul{
+        width: 101px;
+    } 
+    footer .wrapper div.fmain div.right li {
+        line-height: 33px;
+        color: #CBD5E1;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    footer .wrapper div.fmain div.right h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #F1F5F9;
+        margin-bottom: 2%;
+    }  
+    footer .wrapper div.fmain div.right li img {
+        width: 39px;
+        margin-top: 37%;
+        cursor: pointer;
+    }
+    #journey .wrapper div.lmain div.tfirst div.image img{
+        width: 344px;
+    } 
+    #journey .wrapper div.lmain div.tlast img{
+        width: 371px;
+    }
+    footer .wrapper div.fmain div.right div.Contact ul.social {
+        display: flex;
+        gap: 14px;
+    } 
+    #spotlight .wrapper div.main div.right div.rightmain div.top img {
+        width: 201px;
+    }
+    header div.main1 {
+        display: flex;
+        gap: 64%;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 4px;
+    }
+    #spotlight .wrapper div.main div.left h3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        width: 609px;
+    }
+    #spotlight .wrapper div.main div.left p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #334155;
+        width: 654px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+    #description .wrapper ul.dl {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+        width: 661px;
+        border-bottom: 1px solid #E2E8F0;
+        margin-top: 3%;
+        padding-bottom: 22px;
+    }
+    #description .wrapper ul.dl li {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 18px 24px;
+        border: 1px solid #E2E8F0;
+        border-radius: 8px;
+        color: #0F172A;
+    }
+    #spotlight .wrapper div.main div.right {
+        width: 245px;
+        box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+        border-radius: 16px;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        right: 0px;
+    }
+    #spotlight .wrapper div.main div.right div.price ul {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 7%;
+        margin-bottom: 6%;
+    }
+    #spotlight .wrapper div.main div.right div.mid button.b1 {
+        padding: 14px 60px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+    #spotlight .wrapper div.main div.right div.mid button.b2 {
+        padding: 14px 68px;
+        height: 45px;
+        border-radius: 8px;
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #spotlight .wrapper div.main div.right div.bottom p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 3%;
+    }
+    #spotlight .wrapper div.main div.right div.bottom img {
+        width: 38px;
+    }
+    #description .wrapper div.courses p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #334155;
+        width: 779px;
+        line-height: 24.6px;
+    }
+    #description .wrapper div.certi {
+        width: 795px;
+        border-bottom: 1px solid #E2E8F0;
+    }
+    #description .wrapper div.lp {
+        border-bottom: 1px solid #E2E8F0;
+        width: 832px;
+    }
+    #description .wrapper div.Syllabus div.main {
+        width: 1018px;
+        padding-bottom: 2%;
+    }
+    #description .wrapper div.Syllabus div.main div.front h3 {
+        font-size: 21px;
+        font-weight: 600;
+        color: #0F172A;
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+    #description .wrapper div.Syllabus div.main {
+        width: 744px;
+        padding-bottom: 2%;
+    }
+    #review .wrapper div.rmain div.rbottom {
+        display: flex;
+        justify-content: start;
+        gap: 55px;
+    }
+    #review .wrapper div.rmain div.rbottom div.rright div.top {
+        display: flex;
+        gap: 50px;
+        border: 1px solid #E2E8F0;
+        border-radius: 16px;
+        padding: 22px 13px;
+        margin-bottom: 3%;
+    }
+    #description .wrapper div.lp {
+        border-bottom: 1px solid #E2E8F0;
+        width: 832px;
+    }
+    #spotlight .wrapper div.main div.left ul.one {
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 513px;
+    }
+    #spotlight .wrapper div.main div.right div.price ul li:nth-child(1) {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    #spotlight .wrapper div.main div.right div.price ul li:nth-child(3) {
+        font-size: 17px;
+        font-weight: 600;
+        color: rgba(22, 163, 74, 1);
+    }
+    #spotlight .wrapper div.main div.right div.bottom {
+        padding-top: 18px;
+        margin-left: 6%;
+    }
+    #spotlight .wrapper div.main div.right div.bottom ul {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 6%;
+    }
+    #spotlight .wrapper div.main div.right div.price ul del {
+        text-decoration: line-through;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(148, 163, 184, 1);
+    }
+    #spotlight .wrapper div.main div.left div.ratings ul {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 21px;
+        width: 520px;
+    }
+    #review .wrapper div.rmain div.rtop {
+        width: 925px;
+    }
+    #review .wrapper div.rmain div.rtop h3 {
+        border-top: 1px solid #E2E8F0;
+        width: 832px;
+        padding-top: 3%;
+        font-size: 21px;
+        font-weight: 600;
+        color: #0F172A;
+        padding-bottom: 3%;
+    }
+    #description .wrapper div.lp p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #334155;
+        width: 782px;
+        margin-top: 1%;
+        padding-bottom: 2%;
+        line-height: 24.6px;
+    }
+    #review .wrapper div.rmain div.rbottom div.rright div.top div.right p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #334155;
+        width: 497px;
+        line-height: 25.6px;
+    }
+    #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3 {
+        font-size: 17px;
+        font-weight: 600;
+        color: #0F172A;
+    }
+    #review .wrapper div.rmain {
+        width: 100%;
+    }
+    #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding-bottom: 10%;
+    }
+    #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small {
+        font-size: 12px;
+        font-weight: 500;
+        color: #334155;
+    }
+    #about {
+        background-color: #F8FAFC;
+        padding: 80px 0px;
+        margin-top: 3%;
+    }
+    }
+    @media all and (min-width: 900px) and (max-width: 1023px){
+        #categories .wrapper div.cmain div.bottom ul li {
+            padding: 19px 51px;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 14px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li img {
+            width: 83px;
+        }
+        header div.main div.right {
+            display: flex;
+            gap: 11%;
+            align-items: center;
+            margin-bottom: 7px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li p {
+            font-weight: 600;
+            font-size: 20px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul li span {
+            font-weight: 400;
+            font-size: 15px;
+            color: #334155;
+        } 
+        #courses .wrapper div.smain div.down ul li {
+            padding: 27px 23px;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 16px;
+            line-height: 31px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            width: 380px;
+            padding: 26px 62px;
+            border-radius: 16px;
+        }
+        #spotlite .wrapper div.head div.sright img {
+            width: 321px;
+            margin-top: 4%;
+        }
+        #spotlite .wrapper div.head div.sleft h4 {
+            width: 89%;
+            font-weight: 700;
+            font-size: 36px;
+            margin-bottom: 3%;
+            color: #0F172A;
+        }
+        #list .wrapper ul li h3 {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 55px;
+        }
+        #spotlite .wrapper div.head div.sleft p {
+            Width: 486px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            color: #334155;
+            margin-bottom: 3%;
+        }
+        #spotlite .wrapper div.head div.sleft button {
+            padding: 13px 9px;
+            background-color: #3B82F6;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        #list .wrapper ul li {
+            border-right: 5px solid #E2E8F0;
+            padding-right: 7%;
+            padding-left: 7%;
+        }
+        #courses .wrapper div.smain div.down ul li div.image {
+            width: 256px;
+        }
+        #courses .wrapper div.smain div.down ul {
+            gap: 2.6%;
+            display: flex;
+            align-items: center;
+        }
+        #courses .wrapper div.smain div.down ul li p.first {
+            font-weight: 600;
+            font-size: 16px;
+            color: #0F172A;
+            width: 204px;
+        }
+        #courses .wrapper div.smain div.down ul li p.value {
+            font-weight: 600;
+            font-size: 17px;
+        }
+        #instructor .wrapper div.imain div.Design div.first img {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+        #about .wrapper div.amain div.tp p {
+            font-size: 30px;
+            font-weight: 600;
+            color: black;
+            width: 43%;
+        }
+        footer .wrapper div.fmain div.right {
+            display: flex;
+            padding-top: 7%;
+            gap: 70px;
+        }
+        footer .wrapper div.fmain {
+            display: flex;
+            gap: 5%;
+            padding-top: 7%;
+            margin-top: 4%;
+            flex-wrap: wrap;
+            padding-bottom: 7%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn p {
+            width: 419px;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: black;
+            margin-bottom: 10px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn img.ft {
+            width: 10%;
+            margin-bottom: 4%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img {
+            width: 64px;
+            border-radius: 50px;
+        }
+        #instructor .wrapper div.imain div.Design div.second h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 3%;
+        }
+        #instructor .wrapper div.imain div.Design div.second p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            margin-bottom: 11%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: black;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face span {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+        }
+        #journey .wrapper div.lmain div.tfirst {
+            display: flex;
+            align-items: center;
+            gap: 5%;
+        }
+        header div.main {
+            display: flex;
+            gap: 57%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        #list .wrapper ul {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 139px;
+        }
+        #list .wrapper ul li p {
+            font-weight: 400;
+            font-size: 13px;
+            width: 180px;
+            color: #0F172A;
+        }
+        #list {
+            background-color: #F8FAFC;
+            padding: 38px 0px;
+            margin-top: 7%;
+        }
+        #categories .wrapper div.cmain div.top p {
+            font-weight: 600;
+            font-size: 27px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            line-height: 30px;
+        }
+        #courses .wrapper div.smain div.up p {
+            font-weight: 600;
+            font-size: 27px;
+            color: #0F172A;
+        }
+        #courses .wrapper div.smain div.down ul li small {
+            font-weight: 400;
+            font-size: 12px;
+            color: #334155;
+        }
+        #courses .wrapper div.smain div.down ul li nav {
+            font-weight: 600;
+            font-size: 12px;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right span {
+            font-size: 13px;
+            font-weight: 600;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third small {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left img {
+            width: 16px;
+        }
+        #instructor .wrapper div.imain div.Design li {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            padding: 17px 17px;
+            width: 19%;
+            border-radius: 8px;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            gap: 31%;
+            display: flex;
+        }
+        #about .wrapper div.amain div.tp nav {
+            display: flex;
+            gap: 15%;
+        }
+        #about .wrapper div.amain div.tp button.one {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-left.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.tp button.two {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img{
+            height: 64px;
+            border-radius: 50px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text p {
+            width: 487px;
+            font-size:15px;
+            font-weight: 400;
+            color: #1D2939;
+            line-height: 26px;
+            margin-bottom: 2%;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text h3 {
+            font-size: 29px;
+            font-weight: 600;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 13px 40px;
+        }
+        #journey .wrapper div.lmain div.tlast div.style h3 {
+            font-size: 29px;
+            font-weight: 600;
+            color: black;
+            width: 371px;
+            margin-bottom: 2%;
+        }
+        #journey .wrapper div.lmain div.tlast div.style p {
+            width: 440px;
+            font-size: 17px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 10px 37px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 247px;
+        }   
+        #journey .wrapper div.lmain div.tlast div.style button {
+            padding: 11px 40px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 167px;
+        }
+        #journey .wrapper div.lmain div.tlast {
+            display: flex;
+            align-items: center;
+        }
+        footer .wrapper div.left p {
+            color: #CBD5E1;
+            font-size: 18px;
+            font-weight: 400;
+            width: 519px;
+            line-height: 25px;
+        }     
+        footer .wrapper div.left img {
+            width: 108px;
+            margin-bottom: 3%;
+        } 
+        footer .wrapper div.right div.help ul{
+            width: 139px;
+        } 
+        footer .wrapper div.fmain div.right li {
+            line-height: 33px;
+            color: #CBD5E1;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        footer .wrapper div.fmain div.right h3 {
+            font-size: 19px;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 2%;
+        }  
+        footer .wrapper div.fmain div.right li img {
+            width: 48px;
+            margin-top: 37%;
+            cursor: pointer;
+        }
+        #journey .wrapper div.lmain div.tfirst div.image img{
+            width: 294px;
+        } 
+        #journey .wrapper div.lmain div.tlast img{
+            width: 371px;
+        }
+        footer .wrapper div.fmain div.right div.Contact ul.social {
+            display: flex;
+            gap: 22px;
+        } 
+        #courses .wrapper div.smain div.down ul {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #about .wrapper div.amain div.dn {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 30px;
+            transition: transform 0.5s ease;
+            justify-content: center;
+        }
+        header div.main1 {
+            display: flex;
+            gap: 64%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        #spotlight .wrapper div.main div.left h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            width: 609px;
+        }
+        #spotlight .wrapper div.main div.left p {
+            font-size: 15px;
+            font-weight: 400;
+            color: #334155;
+            width: 530px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+        #description .wrapper ul.dl {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 24px;
+            width: 661px;
+            border-bottom: 1px solid #E2E8F0;
+            margin-top: 3%;
+            padding-bottom: 22px;
+        }
+        #description .wrapper ul.dl li {
+            font-size: 15px;
+            font-weight: 400;
+            padding: 18px 24px;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            color: #0F172A;
+        }
+        #spotlight .wrapper div.main div.right {
+            width: 245px;
+            box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+            border-radius: 16px;
+            position: absolute;
+            background-color: white;
+            top: 0px;
+            right: 0px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-top: 7%;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b1 {
+            padding: 14px 60px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b2 {
+            padding: 14px 68px;
+            height: 45px;
+            border-radius: 8px;
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        #spotlight .wrapper div.main div.right div.bottom p {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom img {
+            width: 38px;
+        }
+        #description .wrapper div.courses p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 779px;
+            line-height: 24.6px;
+        }
+        #description .wrapper div.certi {
+            width: 795px;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 832px;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 1018px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.Syllabus div.main div.front h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 3%;
+            margin-top: 2%;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 744px;
+            padding-bottom: 2%;
+        }
+        #review .wrapper div.rmain div.rbottom {
+            display: flex;
+            justify-content: start;
+            gap: 55px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top {
+            display: flex;
+            gap: 50px;
+            border: 1px solid #E2E8F0;
+            border-radius: 16px;
+            padding: 22px 13px;
+            margin-bottom: 5%;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 832px;
+        }
+        #spotlight .wrapper div.main div.left ul.one {
+            display: flex;
+            gap: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            width: 513px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(1) {
+            font-size: 17px;
+            font-weight: 600;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(3) {
+            font-size: 17px;
+            font-weight: 600;
+            color: rgba(22, 163, 74, 1);
+        }
+        #spotlight .wrapper div.main div.right div.bottom {
+            padding-top: 18px;
+            margin-left: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom ul {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.price ul del {
+            text-decoration: line-through;
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(148, 163, 184, 1);
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 21px;
+            width: 520px;
+        }
+        #review .wrapper div.rmain div.rtop {
+            width: 784px;
+        }
+        #review .wrapper div.rmain div.rtop h3 {
+            border-top: 1px solid #E2E8F0;
+            width: 832px;
+            padding-top: 3%;
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.lp p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 782px;
+            margin-top: 1%;
+            padding-bottom: 2%;
+            line-height: 24.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top div.right p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            width: 374px;
+            line-height: 25.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0F172A;
+        }
+        #review .wrapper div.rmain {
+            width: 100%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            padding-bottom: 10%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small {
+            font-size: 12px;
+            font-weight: 500;
+            color: #334155;
+        }
+        #about {
+            background-color: #F8FAFC;
+            padding: 80px 0px;
+            margin-top: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.rightmain div.top img {
+            width: 201px;
+        }
+    }
+    @media all and (min-width: 768px) and (max-width: 899px){
+        #categories .wrapper div.cmain div.bottom ul li {
+            padding: 50px 0px;
+            width: 46%;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 14px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li img {
+            width: 83px;
+        }
+        header div.main div.right {
+            display: flex;
+            gap: 11%;
+            align-items: center;
+            margin-bottom: 7px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li p {
+            font-weight: 600;
+            font-size: 20px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul li span {
+            font-weight: 400;
+            font-size: 15px;
+            color: #334155;
+        } 
+        #courses .wrapper div.smain div.down ul li {
+            padding: 27px 23px;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 16px;
+            line-height: 31px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            width: 380px;
+            padding: 26px 62px;
+            border-radius: 16px;
+        }
+        #spotlite .wrapper div.head div.sright img {
+            width: 205px;
+            margin-top: 4%;
+        }
+        #spotlite .wrapper div.head div.sleft h4 {
+            width: 70%;
+            font-weight: 700;
+            font-size:31px;
+            margin-bottom: 3%;
+            color: #0F172A;
+        }
+        #list .wrapper ul li h3 {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 55px;
+        }
+        #spotlite .wrapper div.head div.sleft p {
+            Width: 486px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            color: #334155;
+            margin-bottom: 3%;
+        }
+        #spotlite .wrapper div.head div.sleft button {
+            padding: 13px 9px;
+            background-color: #3B82F6;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        #list .wrapper ul li {
+            border-right: 5px solid #E2E8F0;
+            padding-right: 4%;
+            padding-left: 4%;
+        }
+        #courses .wrapper div.smain div.down ul li div.image {
+            width: 256px;
+        }
+        #courses .wrapper div.smain div.down ul {
+            gap: 2.6%;
+            display: flex;
+            align-items: center;
+        }
+        #courses .wrapper div.smain div.down ul li p.first {
+            font-weight: 600;
+            font-size: 16px;
+            color: #0F172A;
+            width: 204px;
+        }
+        #courses .wrapper div.smain div.down ul li p.value {
+            font-weight: 600;
+            font-size: 17px;
+        }
+        #instructor .wrapper div.imain div.Design div.first img {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+        #about .wrapper div.amain div.tp p {
+            font-size: 30px;
+            font-weight: 600;
+            color: black;
+            width: 49%;
+        }
+        footer .wrapper div.fmain div.right {
+            display: flex;
+            padding-top: 7%;
+            gap: 53px;
+        }
+        footer .wrapper div.fmain {
+            display: flex;
+            gap: 5%;
+            padding-top: 7%;
+            margin-top: 4%;
+            flex-wrap: wrap;
+            padding-bottom: 7%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn p {
+            width: 419px;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: black;
+            margin-bottom: 10px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn img.ft {
+            width: 10%;
+            margin-bottom: 4%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img {
+            width: 64px;
+            border-radius: 50px;
+        }
+        #instructor .wrapper div.imain div.Design div.second h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 3%;
+        }
+        #instructor .wrapper div.imain div.Design div.second p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            margin-bottom: 11%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: black;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face span {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+        }
+        #journey .wrapper div.lmain div.tfirst {
+            display: flex;
+            align-items: center;
+            gap: 42px;
+            flex-wrap: wrap;
+        }
+        header div.main {
+            display: flex;
+            gap: 52%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        #list .wrapper ul {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 139px;
+        }
+        #list .wrapper ul li p {
+            font-weight: 400;
+            font-size: 13px;
+            width: 164px;
+            color: #0F172A;
+        }
+        #list {
+            background-color: #F8FAFC;
+            padding: 21px 0px;
+            margin-top: 7%;
+        }
+        #categories .wrapper div.cmain div.top p {
+            font-weight: 600;
+            font-size: 27px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 51px;
+            text-align: center;
+            line-height: 30px;
+            justify-content:center;
+        }
+        #courses .wrapper div.smain div.up p {
+            font-weight: 600;
+            font-size: 27px;
+            color: #0F172A;
+        }
+        #courses .wrapper div.smain div.down ul li small {
+            font-weight: 400;
+            font-size: 12px;
+            color: #334155;
+        }
+        #courses .wrapper div.smain div.down ul li nav {
+            font-weight: 600;
+            font-size: 12px;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right span {
+            font-size: 11px;
+            font-weight: 600;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third small {
+            font-size: 13px;
+            font-weight: 600;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left img {
+            width: 15px;
+        }
+        #instructor .wrapper div.imain div.Design li {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            padding: 17px 17px;
+            width: 19%;
+            border-radius: 8px;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            gap: 31%;
+            display: flex;
+        }
+        #about .wrapper div.amain div.tp nav {
+            display: flex;
+            gap: 15%;
+        }
+        #about .wrapper div.amain div.tp button.one {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-left.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.tp button.two {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img{
+            height: 64px;
+            border-radius: 50px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text p {
+            width: 487px;
+            font-size:15px;
+            font-weight: 400;
+            color: #1D2939;
+            line-height: 26px;
+            margin-bottom: 2%;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text h3 {
+            font-size: 29px;
+            font-weight: 600;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 13px 40px;
+        }
+        #journey .wrapper div.lmain div.tlast div.style h3 {
+            font-size: 29px;
+            font-weight: 600;
+            color: black;
+            width: 371px;
+            margin-bottom: 2%;
+            margin-top: 14%;
+        }
+        #journey .wrapper div.lmain div.tlast div.style p {
+            width: 440px;
+            font-size: 17px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 10px 37px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 247px;
+        }   
+        #journey .wrapper div.lmain div.tlast div.style button {
+            padding: 11px 40px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 167px;
+        }
+        #journey .wrapper div.lmain div.tlast {
+            display: flex;
+            align-items: center;
+            gap: 57px;
+            flex-wrap: wrap;
+        }
+        footer .wrapper div.left p {
+            color: #CBD5E1;
+            font-size: 18px;
+            font-weight: 400;
+            width: 519px;
+            line-height: 25px;
+        }     
+        footer .wrapper div.left img {
+            width: 108px;
+            margin-bottom: 3%;
+        } 
+        footer .wrapper div.right div.help ul{
+            width: 139px;
+        } 
+        footer .wrapper div.fmain div.right li {
+            line-height: 33px;
+            color: #CBD5E1;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        footer .wrapper div.fmain div.right h3 {
+            font-size: 19px;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 2%;
+        }  
+        footer .wrapper div.fmain div.right li img {
+            width: 48px;
+            margin-top: 37%;
+            cursor: pointer;
+        }
+        #journey .wrapper div.lmain div.tfirst div.image img{
+            width: 294px;
+        } 
+        #journey .wrapper div.lmain div.tlast img{
+            width: 371px;
+        }
+        footer .wrapper div.fmain div.right div.Contact ul.social {
+            display: flex;
+            gap: 22px;
+        } 
+        #courses .wrapper div.smain div.down ul {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap:66px;
+            justify-content: center;
+        }
+        #about .wrapper div.amain div.dn {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 30px;
+            transition: transform 0.5s ease;
+            justify-content: center;
+        }
+           header div.main1 {
+            display: flex;
+            gap: 55%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        #spotlight .wrapper div.main div.left h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            width: 609px;
+        }
+        #spotlight .wrapper div.main div.left p {
+            font-size: 15px;
+            font-weight: 400;
+            color: #334155;
+            width: 530px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+        #description .wrapper ul.dl {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 24px;
+            width: 661px;
+            border-bottom: 1px solid #E2E8F0;
+            margin-top: 3%;
+            padding-bottom: 22px;
+        }
+        #description .wrapper ul.dl li {
+            font-size: 15px;
+            font-weight: 400;
+            padding: 18px 31px;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            color: #0F172A;
+        }
+        #spotlight .wrapper div.main div.right {
+            width: 245px;
+            box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+            border-radius: 16px;
+            position: relative;
+            background-color: white;
+            top: 0px;
+            right: 0px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-top: 7%;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b1 {
+            padding: 14px 60px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b2 {
+            padding: 14px 68px;
+            height: 45px;
+            border-radius: 8px;
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        #spotlight .wrapper div.main div.right div.bottom p {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom img {
+            width: 38px;
+        }
+        #description .wrapper div.courses p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 688px;
+            line-height: 24.6px;
+        }
+        #description .wrapper div.certi {
+            width: 688px;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 832px;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 1018px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.Syllabus div.main div.front h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 3%;
+            margin-top: 2%;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 656px;
+            padding-bottom: 2%;
+        }
+        #review .wrapper div.rmain div.rbottom {
+            display: flex;
+            justify-content: start;
+            gap: 55px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top {
+            display: flex;
+            gap: 50px;
+            border: 1px solid #E2E8F0;
+            border-radius: 16px;
+            padding: 22px 13px;
+            margin-bottom: 5%;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 689px;
+        }
+        #spotlight .wrapper div.main div.left ul.one {
+            display: flex;
+            gap: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            width: 513px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(1) {
+            font-size: 17px;
+            font-weight: 600;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(3) {
+            font-size: 17px;
+            font-weight: 600;
+            color: rgba(22, 163, 74, 1);
+        }
+        #spotlight .wrapper div.main div.right div.bottom {
+            padding-top: 18px;
+            margin-left: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom ul {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.price ul del {
+            text-decoration: line-through;
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(148, 163, 184, 1);
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 21px;
+            width: 520px;
+        }
+        #review .wrapper div.rmain div.rtop {
+            width: 713px;
+        }
+        #review .wrapper div.rmain div.rtop h3 {
+            border-top: 1px solid #E2E8F0;
+            width: 676px;
+            padding-top: 3%;
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.lp p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 696px;
+            margin-top: 1%;
+            padding-bottom: 2%;
+            line-height: 24.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top div.right p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            width: 266px;
+            line-height: 25.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0F172A;
+        }
+        #review .wrapper div.rmain {
+            width: 100%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            padding-bottom: 10%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small {
+            font-size: 12px;
+            font-weight: 500;
+            color: #334155;
+        }
+        #about {
+            background-color: #F8FAFC;
+            padding: 80px 0px;
+            margin-top: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.rightmain div.top img {
+            width: 201px;
+        }
+        #spotlight {
+            background-color: rgba(248, 250, 252, 1);
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.certi p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 667px;
+            line-height: 24.6px;
+            padding-bottom: 2%;
+        }
+    }
+    @media all and (min-width: 600px) and (max-width: 767px){
+        #categories .wrapper div.cmain div.bottom ul li {
+            padding: 30px 0px;
+            width: 46%;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 14px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li img {
+            width: 83px;
+        }
+        header div.main div.right {
+            display: flex;
+            gap: 11%;
+            align-items: center;
+            margin-bottom: 7px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li p {
+            font-weight: 600;
+            font-size: 20px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul li span {
+            font-weight: 400;
+            font-size: 15px;
+            color: #334155;
+        } 
+        #courses .wrapper div.smain div.down ul li {
+            padding: 27px 23px;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 16px;
+            line-height: 31px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            width: 380px;
+            padding: 26px 62px;
+            border-radius: 16px;
+        }
+        #spotlite .wrapper div.head div.sright img {
+            width: 205px;
+            margin-top: 4%;
+        }
+        #spotlite .wrapper div.head div.sleft h4 {
+            width: 93%;
+            font-weight: 700;
+            font-size:31px;
+            margin-bottom: 3%;
+            color: #0F172A;
+        }
+        #list .wrapper ul li h3 {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 55px;
+        }
+        #spotlite .wrapper div.head div.sleft p {
+            Width: 336px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 25px;
+            color: #334155;
+            margin-bottom: 3%;
+        }
+        #spotlite .wrapper div.head div.sleft button {
+            padding: 10px 9px;
+            background-color: #3B82F6;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        #list .wrapper ul li {
+            border-right: 5px solid #E2E8F0;
+            padding-right: 4%;
+            padding-left: 4%;
+        }
+        #courses .wrapper div.smain div.down ul li div.image {
+            width: 256px;
+        }
+        #courses .wrapper div.smain div.down ul {
+            gap: 2.6%;
+            display: flex;
+            align-items: center;
+        }
+        #courses .wrapper div.smain div.down ul li p.first {
+            font-weight: 600;
+            font-size: 16px;
+            color: #0F172A;
+            width: 204px;
+        }
+        #courses .wrapper div.smain div.down ul li p.value {
+            font-weight: 600;
+            font-size: 17px;
+        }
+        #instructor .wrapper div.imain div.Design div.first img {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right {
+            width: 87px;
+        }
+        #about .wrapper div.amain div.tp p {
+            font-size: 24px;
+            font-weight: 600;
+            color: black;
+            width: 61%;
+        }
+        footer .wrapper div.fmain div.right {
+            display: flex;
+            padding-top: 7%;
+            flex-direction: column;
+            gap: 53px;
+        }
+        footer .wrapper div.fmain {
+            display: flex;
+            gap: 5%;
+            padding-top: 7%;
+            margin-top: 4%;
+            flex-wrap: wrap;
+            padding-bottom: 7%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn p {
+            width: 419px;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: black;
+            margin-bottom: 10px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn img.ft {
+            width: 10%;
+            margin-bottom: 4%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img {
+            width: 64px;
+            border-radius: 50px;
+        }
+        #instructor .wrapper div.imain div.Design div.second h3 {
+            font-size: 14px;
+            font-weight: 600;
+            width:105px;
+            color: #0F172A;
+            margin-bottom: 3%;
+        }
+        #instructor .wrapper div.imain div.Design div.second p {
+            font-size: 12px;
+            font-weight:400;
+            color: #334155;
+            margin-bottom: 11%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: black;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face span {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+        }
+        #journey .wrapper div.lmain div.tfirst {
+            display: flex;
+            align-items: center;
+            gap: 42px;
+            flex-wrap: wrap;
+        }
+        header div.main {
+            display: flex;
+            gap: 42%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        #list .wrapper ul {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 139px;
+        }
+        #list .wrapper ul li p {
+            font-weight: 400;
+            font-size: 13px;
+            width: 122px;
+            color: #0F172A;
+        }
+        #list {
+            background-color: #F8FAFC;
+            padding: 21px 0px;
+            margin-top: 7%;
+        }
+        #categories .wrapper div.cmain div.top p {
+            font-weight: 600;
+            font-size: 21px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 51px;
+            text-align: center;
+            line-height: 30px;
+            justify-content:center;
+        }
+        #courses .wrapper div.smain div.up p {
+            font-weight: 600;
+            font-size: 21px;
+            color: #0F172A;
+        }
+        #instructor .wrapper div.imain div.title p {
+            font-weight: 600;
+            font-size: 22px;
+            color: #0F172A;
+        }
+        #courses .wrapper div.smain div.down ul li small {
+            font-weight: 400;
+            font-size: 12px;
+            color: #334155;
+        }
+        #courses .wrapper div.smain div.down ul li nav {
+            font-weight: 600;
+            font-size: 12px;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right span {
+            font-size: 11px;
+            display: inline-block;
+            width: 92px;
+            font-weight: 600;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 3%;
+        }
+        #instructor .wrapper div.imain div.Design div.third {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-top: 1px solid #E2E8F0;
+            padding-top: 12%;
+        }
+        #instructor .wrapper div.imain div.Design div.third small {
+            font-size: 11px;
+            font-weight: 600;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left img {
+            width: 12px;
+        }
+        #instructor .wrapper div.imain div.Design li {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            padding: 16px 29px;
+            width: 19%;
+            border-radius: 8px;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            gap: 31%;
+            display: flex;
+        }
+        #about .wrapper div.amain div.tp nav {
+            display: flex;
+            gap: 15%;
+        }
+        #about .wrapper div.amain div.tp button.one {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-left.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.tp button.two {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img{
+            height: 64px;
+            border-radius: 50px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text p {
+            width: 487px;
+            font-size:15px;
+            font-weight: 400;
+            color: #1D2939;
+            line-height: 26px;
+            margin-bottom: 2%;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text h3 {
+            font-size: 29px;
+            font-weight: 600;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 13px 40px;
+        }
+        #journey .wrapper div.lmain div.tlast div.style h3 {
+            font-size: 29px;
+            font-weight: 600;
+            color: black;
+            width: 371px;
+            margin-bottom: 2%;
+            margin-top: 14%;
+        }
+        #journey .wrapper div.lmain div.tlast div.style p {
+            width: 440px;
+            font-size: 17px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 10px 37px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 247px;
+        }   
+        #journey .wrapper div.lmain div.tlast div.style button {
+            padding: 11px 40px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 167px;
+        }
+        #journey .wrapper div.lmain div.tlast {
+            display: flex;
+            align-items: center;
+            gap: 57px;
+            flex-wrap: wrap;
+        }
+        footer .wrapper div.left p {
+            color: #CBD5E1;
+            font-size: 18px;
+            font-weight: 400;
+            width: 519px;
+            line-height: 25px;
+        }     
+        footer .wrapper div.left img {
+            width: 108px;
+            margin-bottom: 3%;
+        } 
+        footer .wrapper div.right div.help ul{
+            width: 139px;
+        } 
+        footer .wrapper div.fmain div.right li {
+            line-height: 33px;
+            color: #CBD5E1;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        footer .wrapper div.fmain div.right h3 {
+            font-size: 19px;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 2%;
+        }  
+        footer .wrapper div.fmain div.right li img {
+            width: 48px;
+            margin-top: 37%;
+            cursor: pointer;
+        }
+        #journey .wrapper div.lmain div.tfirst div.image img{
+            width: 294px;
+        } 
+        #journey .wrapper div.lmain div.tlast img{
+            width: 371px;
+        }
+        footer .wrapper div.fmain div.right div.Contact ul.social {
+            display: flex;
+            gap: 22px;
+        } 
+        #courses .wrapper div.smain div.down ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap:30px;
+            align-items: center;
+            justify-content: center;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap:66px;
+            justify-content: center;
+        }
+        #about .wrapper div.amain div.dn {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 30px;
+            transition: transform 0.5s ease;
+            justify-content: center;
+        }
+        header div.main1 {
+            display: flex;
+            gap: 46%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        #spotlight .wrapper div.main div.left h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            width: 558px;
+        }
+        #spotlight .wrapper div.main div.left p {
+            font-size: 15px;
+            font-weight: 400;
+            color: #334155;
+            width: 530px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+        #description .wrapper ul.dl {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 7px;
+            width: 528px;
+            border-bottom: 1px solid #E2E8F0;
+            margin-top: 3%;
+            padding-bottom: 22px;
+        }
+        #description .wrapper ul.dl li {
+            font-size: 15px;
+            font-weight: 400;
+            padding: 18px 31px;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            color: #0F172A;
+        }
+        #spotlight .wrapper div.main div.right {
+            width: 245px;
+            box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+            border-radius: 16px;
+            position: relative;
+            background-color: white;
+            top: 0px;
+            right: 0px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-top: 7%;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b1 {
+            padding: 14px 60px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b2 {
+            padding: 14px 68px;
+            height: 45px;
+            border-radius: 8px;
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        #spotlight .wrapper div.main div.right div.bottom p {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom img {
+            width: 38px;
+        }
+        #description .wrapper div.courses p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 496px;
+            line-height: 24.6px;
+        }
+        #description .wrapper div.certi {
+            width: 521px;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 832px;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 1018px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.Syllabus div.main div.front h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 3%;
+            margin-top: 2%;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 100%;
+            padding-bottom: 4%;
+        }
+        #review .wrapper div.rmain div.rbottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 55px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top {
+            display: flex;
+            gap: 50px;
+            border: 1px solid #E2E8F0;
+            border-radius: 16px;
+            padding: 22px 13px;
+            margin-bottom: 5%;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 537px;
+        }
+        #spotlight .wrapper div.main div.left ul.one {
+            display: flex;
+            gap: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            width: 513px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(1) {
+            font-size: 17px;
+            font-weight: 600;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(3) {
+            font-size: 17px;
+            font-weight: 600;
+            color: rgba(22, 163, 74, 1);
+        }
+        #spotlight .wrapper div.main div.right div.bottom {
+            padding-top: 18px;
+            margin-left: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom ul {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.price ul del {
+            text-decoration: line-through;
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(148, 163, 184, 1);
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 21px;
+            width: 520px;
+        }
+        #review .wrapper div.rmain div.rtop {
+            width: 527px;
+        }
+        #review .wrapper div.rmain div.rtop h3 {
+            border-top: 1px solid #E2E8F0;
+            width: 520px;
+            padding-top: 3%;
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.lp p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 474px;
+            margin-top: 1%;
+            padding-bottom: 3%;
+            line-height: 24.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top div.right p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            width: 266px;
+            line-height: 25.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0F172A;
+        }
+        #review .wrapper div.rmain {
+            width: 100%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            padding-bottom: 10%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small {
+            font-size: 12px;
+            font-weight: 500;
+            color: #334155;
+        }
+        #about {
+            background-color: #F8FAFC;
+            padding: 80px 0px;
+            margin-top: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.rightmain div.top img {
+            width: 201px;
+        }
+        #spotlight {
+            background-color: rgba(248, 250, 252, 1);
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.certi p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 485px;
+            line-height: 24.6px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.certi h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 10px;
+            width: 199px;
+        }
+        #description .wrapper div.dtop h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            width: 153px;
+        }
+        #description .wrapper div.dtop h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2563EB;
+            margin-bottom: 11px;
+            width: 170px;
+        }
+        #description .wrapper div.dtop {
+            padding-bottom: 16px;
+            width: 338px;
+        }
+        #description .wrapper div.dbottom div.dleft img{
+            width:77px;
+        }
+        #description .wrapper div.Syllabus div.main div.front{
+            width:533px;  
+        } 
+        #description .wrapper div.Syllabus div.main div.back ul {
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            width: 531px;
+        }
+        #description .wrapper div.Syllabus div.main div.back{
+            width: 538px;
+        }
+    }
+    @media all and (min-width: 480px) and (max-width: 599px){
+        #categories .wrapper div.cmain div.bottom ul li {
+            padding: 30px 0px;
+            width: 46%;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 14px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li img {
+            width: 83px;
+        }
+        header div.main div.right {
+            display: flex;
+            gap: 11%;
+            align-items: center;
+            margin-bottom: 7px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li p {
+            font-weight: 600;
+            font-size: 20px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul li span {
+            font-weight: 400;
+            font-size: 15px;
+            color: #334155;
+        } 
+        #courses .wrapper div.smain div.down ul li {
+            padding: 20px;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 16px;
+            line-height: 31px;
+            width: 100%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            width: 380px;
+            padding: 26px 42px;
+            border-radius: 16px;
+        }
+        #spotlite .wrapper div.head div.sright img {
+            display: none;
+
+        }
+        #spotlite .wrapper div.head div.sleft h4 {
+            width: 82%;
+            font-weight: 700;
+            font-size:35px;
+            margin-bottom: 3%;
+            color: #0F172A;
+        }
+        #list .wrapper ul li h3 {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 55px;
+        }
+        #spotlite .wrapper div.head div.sleft p {
+            Width: 432px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #334155;
+            margin-bottom: 3%;
+        }
+        #list .wrapper ul li {
+            padding-right: 9%;
+            padding-left: 9%;
+            border-right: none;
+        }
+        #list .wrapper ul li:nth-child(4) {
+            border-right: none;
+            padding-right: 0;
+            display: none;
+        }
+        #spotlite .wrapper div.head div.sleft button {
+            padding: 14px 10px;
+            background-color: #3B82F6;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        #courses .wrapper div.smain div.down ul li div.image {
+            width: 100%;
+        }
+        #courses .wrapper div.smain div.down ul {
+            gap: 2.6%;
+            display: flex;
+            align-items: center;
+        }
+        #courses .wrapper div.smain div.down ul li p.first {
+            font-weight: 600;
+            font-size: 24px;
+            color: #0F172A;
+        
+        }
+        #courses .wrapper div.smain div.down ul li p.value {
+            font-weight: 600;
+            font-size: 20px;
+        }
+        #instructor .wrapper div.imain div.Design div.first img {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right {
+            width: 87px;
+        }
+        #about .wrapper div.amain div.tp p {
+            font-size: 24px;
+            font-weight: 600;
+            color: black;
+            width: 61%;
+        }
+        footer .wrapper div.fmain div.right {
+            display: flex;
+            padding-top: 7%;
+            flex-direction: column;
+            gap: 53px;
+        }
+        footer .wrapper div.fmain {
+            display: flex;
+            gap: 5%;
+            padding-top: 7%;
+            margin-top: 4%;
+            flex-wrap: wrap;
+            padding-bottom: 7%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn p {
+            width: 419px;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: black;
+            margin-bottom: 10px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn img.ft {
+            width: 10%;
+            margin-bottom: 4%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img {
+            width: 64px;
+            border-radius: 50px;
+        }
+        #instructor .wrapper div.imain div.Design div.second h3 {
+            font-size: 14px;
+            font-weight: 600;
+            width:105px;
+            color: #0F172A;
+            margin-bottom: 3%;
+        }
+        #instructor .wrapper div.imain div.Design div.second p {
+            font-size: 12px;
+            font-weight:400;
+            color: #334155;
+            margin-bottom: 11%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: black;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face span {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+        }
+        #journey .wrapper div.lmain div.tfirst {
+            display: flex;
+            align-items: center;
+            gap: 42px;
+            flex-wrap: wrap;
+        }
+        header div.main {
+            display: flex;
+            gap: 31%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        header div.main div.right button.sign {
+            height: 37px;
+            width: 93px;
+            border: none;
+            font-size: 14px;
+            font-weight: 500;
+            color: white;
+            background-color: #334155;
+        }
+        header div.main div.right button.log {
+            height: 35px;
+            width: 74px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #64748B;
+            background: none;
+            border: 1px solid #334155;
+        }
+        #list .wrapper ul {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 174px;
+        }
+        #list .wrapper ul li p {
+            font-weight: 400;
+            font-size: 13px;
+            width: 122px;
+            color: #0F172A;
+        }
+        #list {
+            background-color: #F8FAFC;
+            padding: 21px 0px;
+            margin-top: 7%;
+        }
+        #categories .wrapper div.cmain div.top p {
+            font-weight: 600;
+            font-size: 21px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 35px;
+            text-align: center;
+            line-height: 30px;
+            justify-content:center;
+        }
+        #courses .wrapper div.smain div.up p {
+            font-weight: 600;
+            font-size: 21px;
+            color: #0F172A;
+        }
+        #instructor .wrapper div.imain div.title p {
+            font-weight: 600;
+            font-size: 22px;
+            color: #0F172A;
+        }
+        #courses .wrapper div.smain div.down ul li small {
+            font-weight: 400;
+            font-size: 17px;
+            color: #334155;
+        }
+        #courses .wrapper div.smain div.down ul li nav {
+            font-weight: 600;
+            font-size: 12px;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right span {
+            font-size: 11px;
+            display: inline-block;
+            width: 92px;
+            font-weight: 600;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 3%;
+            display: none;
+        }
+        #instructor .wrapper div.imain div.Design div.third {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-top: 1px solid #E2E8F0;
+            padding-top: 12%;
+        }
+        #instructor .wrapper div.imain div.Design div.third small {
+            font-size: 11px;
+            font-weight: 600;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left img {
+            width: 12px;
+        }
+        #instructor .wrapper div.imain div.Design li {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            padding: 16px 29px;
+            width: 19%;
+            border-radius: 8px;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            gap: 31%;
+            display: flex;
+        }
+        #about .wrapper div.amain div.tp nav {
+            display: flex;
+            gap: 15%;
+        }
+        #about .wrapper div.amain div.tp button.one {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-left.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.tp button.two {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img{
+            height: 64px;
+            border-radius: 50px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text p {
+            width: 456px;
+            font-size:15px;
+            font-weight: 400;
+            color: #1D2939;
+            line-height: 26px;
+            margin-bottom: 2%;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text h3 {
+            font-size: 29px;
+            font-weight: 600;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 13px 40px;
+        }
+        #journey .wrapper div.lmain div.tlast div.style h3 {
+            font-size: 29px;
+            font-weight: 600;
+            color: black;
+            width: 371px;
+            margin-bottom: 2%;
+            margin-top: 14%;
+        }
+        #journey .wrapper div.lmain div.tlast div.style p {
+            width: 440px;
+            font-size: 17px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 10px 37px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 247px;
+        }   
+        #journey .wrapper div.lmain div.tlast div.style button {
+            padding: 11px 40px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 167px;
+        }
+        #journey .wrapper div.lmain div.tlast {
+            display: flex;
+            align-items: center;
+            gap: 57px;
+            flex-wrap: wrap;
+        }
+        footer .wrapper div.left p {
+            color: #CBD5E1;
+            font-size: 18px;
+            font-weight: 400;
+            width: 433px;
+            line-height: 25px;
+        }     
+        footer .wrapper div.left img {
+            width: 108px;
+            margin-bottom: 3%;
+        } 
+        footer .wrapper div.right div.help ul{
+            width: 139px;
+        } 
+        footer .wrapper div.fmain div.right li {
+            line-height: 33px;
+            color: #CBD5E1;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        footer .wrapper div.fmain div.right h3 {
+            font-size: 19px;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 2%;
+        }  
+        footer .wrapper div.fmain div.right li img {
+            width: 48px;
+            margin-top: 37%;
+            cursor: pointer;
+        }
+        #journey .wrapper div.lmain div.tfirst div.image img{
+            width: 294px;
+        } 
+        #journey .wrapper div.lmain div.tlast img{
+            width: 371px;
+        }
+        footer .wrapper div.fmain div.right div.Contact ul.social {
+            display: flex;
+            gap: 22px;
+        } 
+        #courses .wrapper div.smain div.down ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap:30px;
+            align-items: center;
+            justify-content: center;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap:38px;
+            justify-content: center;
+        }
+        #about .wrapper div.amain div.dn {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 30px;
+            transition: transform 0.5s ease;
+            justify-content: center;
+        }  
+        header div.main1 {
+            display: flex;
+            gap: 34%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        #spotlight .wrapper div.main div.left h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            width: 446px;
+        }
+        #spotlight .wrapper div.main div.left p {
+            font-size: 15px;
+            font-weight: 400;
+            color: #334155;
+            width: 432px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+        #description .wrapper ul.dl {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 23px;
+            width: 100%;
+            border-bottom: 1px solid #E2E8F0;
+            margin-top: 3%;
+            padding-bottom: 22px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #description .wrapper ul.dl li {
+            font-size: 15px;
+            font-weight: 400;
+            padding: 0;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            color: #0F172A;
+            width: 200px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #spotlight .wrapper div.main div.right {
+            width: 100%;
+            box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+            border-radius: 16px;
+            position: relative;
+            background-color: white;
+            top: 0px;
+            right: 0px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-top: 7%;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b1 {
+            padding: 0px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b2 {
+            padding: 0;
+            height: 45px;
+            border-radius: 8px;
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 500;
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom p {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom img {
+            width: 38px;
+        }
+        #description .wrapper div.courses p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 430px;
+            line-height: 24.6px;
+        }
+        #description .wrapper div.certi {
+            width: 100%;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 832px;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 1018px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.Syllabus div.main div.front h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 3%;
+            margin-top: 2%;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 100%;
+            padding-bottom: 4%;
+        }
+        #review .wrapper div.rmain div.rbottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 55px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top {
+            display: flex;
+            gap: 50px;
+            border: 1px solid #E2E8F0;
+            border-radius: 16px;
+            padding: 22px 13px;
+            margin-bottom: 5%;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.left ul.one {
+            display: flex;
+            gap: 6px;
+            text-align: center;
+            margin-bottom: 17px;
+            width: 453px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(1) {
+            font-size: 26px;
+            font-weight: 600;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(3) {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgba(22, 163, 74, 1);
+        }
+        #spotlight .wrapper div.main div.right div.bottom {
+            padding-top: 18px;
+            margin-left: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom ul {
+            display: flex;
+            gap: 12%;
+            margin-bottom: 0;
+            padding-bottom: 17px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul del {
+            text-decoration: line-through;
+            font-size: 21px;
+            font-weight: 600;
+            color: rgba(148, 163, 184, 1);
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 21px;
+            width: 100%;
+        }
+        #review .wrapper div.rmain div.rtop {
+            width: 100%;
+        }
+    
+        #review .wrapper div.rmain div.rtop h3 {
+            border-top: 1px solid #E2E8F0;
+            width: 433px;
+            padding-top: 3%;
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.lp p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 418px;
+            margin-top: 1%;
+            padding-bottom: 3%;
+            line-height: 24.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top div.right p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            width: 266px;
+            line-height: 25.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0F172A;
+        }
+        #review .wrapper div.rmain {
+            width: 100%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            padding-bottom: 10%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small {
+            font-size: 12px;
+            font-weight: 500;
+            color: #334155;
+        }
+        #about {
+            background-color: #F8FAFC;
+            padding: 80px 0px;
+            margin-top: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.rightmain div.top img {
+            width: 100%;
+        }
+        #spotlight {
+            background-color: rgba(248, 250, 252, 1);
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.certi p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 424px;
+            line-height: 24.6px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.certi h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 10px;
+            width: 199px;
+        }
+        #description .wrapper div.dtop h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            width: 153px;
+        }
+        #description .wrapper div.dtop h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2563EB;
+            margin-bottom: 11px;
+            width: 170px;
+        }
+        #description .wrapper div.dtop {
+            padding-bottom: 16px;
+            width: 338px;
+        }
+        #description .wrapper div.dbottom div.dleft img{
+            width:77px;
+        }
+        #description .wrapper div.Syllabus div.main div.front {
+            width: 271px;
+        }
+        #description .wrapper div.Syllabus div.main div.back ul {
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            width: 100%;
+        }
+        #description .wrapper div.Syllabus div.main div.back {
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.left {
+            width: 100%;
+            margin-top: 28px;
+        }
+        #spotlight .wrapper div.main div.left ul.one li:nth-child(5) {
+            color: #2563EB;
+            width: 176px;
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul li {
+            font-size: 12px;
+            font-weight: 400;
+            color: #334155;
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul li img {
+            width: 78px;
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul li:nth-child(1) {
+            font-size: 14px;
+            font-weight: 500;
+            color: #FEC84B;
+        }
+        #spotlight .wrapper div.main div.left div.review ul.two {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 20px;
+            width: 235px;
+        }
+        #spotlight .wrapper div.main div.left div.review ul.three {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            padding-bottom: 4%;
+            width: 267px;
+        }
+
+        #description .wrapper div.Syllabus div.main div.back ul li div.left p {
+            font-size: 15px;
+            font-weight: 600;
+            color: #0F172A;
+        }
+        #courses .wrapper div.smain div.down ul li span {
+            display: flex;
+            align-items: center;
+            gap: 12%;
+        }
+    }
+    @media all and (min-width: 320px) and (max-width: 479px){
+        #categories .wrapper div.cmain div.bottom ul li {
+            padding: 30px 0px;
+            width: 80%;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 14px;
+        }
+        #categories .wrapper div.cmain div.top {
+            margin-bottom: 14%;
+        }
+        #courses .wrapper div.smain {
+            margin-top: 15%;
+        }
+        #categories .wrapper div.cmain div.bottom ul li img {
+            width: 83px;
+        }
+        header div.main div.right {
+            display: flex;
+            gap: 11%;
+            align-items: center;
+            margin-bottom: 7px;
+        }
+        #categories .wrapper div.cmain div.bottom ul li p {
+            font-weight: 600;
+            font-size: 20px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul li span {
+            font-weight: 400;
+            font-size: 15px;
+            color: #334155;
+        } 
+        #courses .wrapper div.smain div.down ul li {
+            padding: 15px 14px;
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            border-radius: 16px;
+            line-height: 31px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            width: 100%;
+            padding: 26px 7px;
+            border-radius: 16px;
+        }
+        #spotlite .wrapper div.head div.sright img {
+            display: none;
+
+        }
+        #about .wrapper div.amain div.tp {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 14%;
+        }
+        #spotlite .wrapper div.head div.sleft h4 {
+            width: 79%;
+            font-weight: 700;
+            font-size:35px;
+            margin-bottom: 3%;
+            color: #0F172A;
+        }
+        #list .wrapper ul li h3 {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 55px;
+        }
+        #spotlite .wrapper div.head div.sleft p {
+            Width: 288px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #334155;
+            margin-bottom: 7%;
+        }
+        #list .wrapper ul li {
+            padding-right: 9%;
+            padding-left: 9%;
+            border-right: none;
+        }
+        #list .wrapper ul li:nth-child(4) {
+            border-right: none;
+            padding-right: 0;
+            display: none;
+        }
+        #spotlite .wrapper div.head div.sleft button {
+            padding: 14px 10px;
+            background-color: #3B82F6;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        #courses .wrapper div.smain div.down ul li div.image {
+            width: 256px;
+        }
+        #courses .wrapper div.smain div.down ul {
+            gap: 2.6%;
+            display: flex;
+            align-items: center;
+        }
+        #courses .wrapper div.smain div.down ul li p.first {
+            font-weight: 600;
+            font-size: 16px;
+            color: #0F172A;
+            width: 204px;
+        }
+        #courses .wrapper div.smain div.down ul li p.value {
+            font-weight: 600;
+            font-size: 17px;
+        }
+        #instructor .wrapper div.imain div.Design div.first img {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right {
+            width: 87px;
+        }
+        #about .wrapper div.amain div.tp p {
+            font-size: 18px;
+            font-weight: 600;
+            color: black;
+            width: 61%;
+        }
+        footer .wrapper div.fmain div.right {
+            display: flex;
+            padding-top: 7%;
+            flex-direction: column;
+            gap: 53px;
+        }
+        footer .wrapper div.fmain {
+            display: flex;
+            gap: 5%;
+            padding-top: 7%;
+            margin-top: 4%;
+            flex-wrap: wrap;
+            padding-bottom: 7%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn p {
+            width: 261px;
+            font-size: 17px;
+            line-height: 30px;
+            font-weight: 400;
+            color: black;
+            margin-bottom: 10px;
+        }
+        #about .wrapper div.amain div.dn div.Dsn img.ft {
+            width: 10%;
+            margin-bottom: 4%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img {
+            width: 64px;
+            border-radius: 50px;
+        }
+        #instructor .wrapper div.imain div.Design div.second h3 {
+            font-size: 14px;
+            font-weight: 600;
+            width:45px;
+            color: #0F172A;
+            margin-bottom: 3%;
+        }
+        #instructor .wrapper div.imain div.Design div.second p {
+            font-size: 12px;
+            font-weight:400;
+            color: #334155;
+            margin-bottom: 11%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: black;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face span {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+        }
+        #journey .wrapper div.lmain div.tfirst {
+            display: flex;
+            align-items: center;
+            gap: 42px;
+            flex-wrap: wrap;
+        }
+        header div.main {
+            display: flex;
+            gap: 31%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+        }
+        header div.main div.right button.sign {
+            height: 37px;
+            width: 93px;
+            border: none;
+            font-size: 14px;
+            font-weight: 500;
+            color: white;
+            background-color: #334155;
+            display: none;
+        }
+        header div.main div.right button.log {
+            height: 35px;
+            width: 74px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #64748B;
+            background: none;
+            border: 1px solid #334155;
+        }
+        #list .wrapper ul {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 174px;
+            display: none;
+        }
+        #list .wrapper ul li p {
+            font-weight: 400;
+            font-size: 13px;
+            width: 122px;
+            color: #0F172A;
+        }
+        #list {
+            display: none;
+        }
+        #categories .wrapper div.cmain {
+            margin-top: 14%;
+        }
+        #categories .wrapper div.cmain div.top p {
+            font-weight: 600;
+            font-size: 21px;
+            color: #0F172A;
+        }
+        #categories .wrapper div.cmain div.bottom ul {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 35px;
+            text-align: center;
+            line-height: 30px;
+            justify-content:center;
+        }
+        #courses .wrapper div.smain div.up p {
+            font-weight: 600;
+            font-size: 21px;
+            color: #0F172A;
+        }
+        #instructor .wrapper div.imain div.title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14%;
+        }
+        #instructor .wrapper div.imain {
+            margin-top: 14%;
+        }
+        #courses .wrapper div.smain div.up {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14%;
+        }
+        #instructor .wrapper div.imain div.title p {
+            font-weight: 600;
+            font-size: 22px;
+            color: #0F172A;
+        }
+        #courses .wrapper div.smain div.down ul li small {
+            font-weight: 400;
+            font-size: 15px;
+            color: #334155;
+        }
+        #courses .wrapper div.smain div.down ul li nav {
+            font-weight: 600;
+            font-size: 12px;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.right span {
+            font-size: 11px;
+            display: inline-block;
+            width: 92px;
+            font-weight: 600;
+            color: #334155;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 3%;
+            display: none;
+        }
+        #instructor .wrapper div.imain div.Design div.third {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-top: 1px solid #E2E8F0;
+            padding-top: 12%;
+        }
+        #instructor .wrapper div.imain div.Design div.third small {
+            font-size: 11px;
+            font-weight: 600;
+        }
+        #instructor .wrapper div.imain div.Design div.third div.left img {
+            width: 12px;
+        }
+        #instructor .wrapper div.imain div.Design li {
+            box-shadow: 0px 0px 8px 0px #3B82F61F;
+            padding: 16px 29px;
+            width: 19%;
+            border-radius: 8px;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            gap: 31%;
+            display: flex;
+        }
+        #about .wrapper div.amain div.tp nav {
+            display: flex;
+            gap: 15%;
+            display: none;
+        }
+        #about .wrapper div.amain div.tp button.one {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-left.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.tp button.two {
+            width: 73px;
+            height: 42px;
+            background-color: #94A3B8;
+            border: none;
+            border-radius: 8px;
+            background-image: url(../images/short-arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 18%;
+        }
+        #about .wrapper div.amain div.dn div.Dsn div.face img{
+            height: 64px;
+            border-radius: 50px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text p {
+            width: 269px;
+            font-size:15px;
+            font-weight: 400;
+            color: #1D2939;
+            line-height: 26px;
+            margin-bottom: 2%;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text h3 {
+            font-size: 29px;
+            font-weight: 600;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 13px 40px;
+        }
+        #journey .wrapper div.lmain div.tlast div.style h3 {
+            font-size: 29px;
+            font-weight: 600;
+            color: black;
+            width: 273px;
+            margin-bottom: 2%;
+            margin-top: 14%;
+        }
+        #journey .wrapper div.lmain div.tlast div.style p {
+            width: 302px;
+            font-size: 17px;
+        }
+        #journey .wrapper div.lmain div.tfirst div.text button {
+            padding: 10px 37px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 247px;
+        }   
+        #journey .wrapper div.lmain div.tlast div.style button {
+            padding: 11px 40px;
+            color: white;
+            padding-left: 15px;
+            background-color: #020617;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            background-image: url(../images/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 167px;
+        }
+        #journey .wrapper div.lmain div.tlast {
+            display: flex;
+            align-items: center;
+            gap: 57px;
+            flex-wrap: wrap;
+        }
+        footer .wrapper div.left p {
+            color: #CBD5E1;
+            font-size: 18px;
+            font-weight: 400;
+            width: 304px;
+            line-height: 25px;
+        }     
+        footer .wrapper div.left img {
+            width: 108px;
+            margin-bottom: 3%;
+        } 
+        footer .wrapper div.right div.help ul{
+            width: 139px;
+        } 
+        footer .wrapper div.fmain div.right li {
+            line-height: 33px;
+            color: #CBD5E1;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        footer .wrapper div.fmain div.right h3 {
+            font-size: 19px;
+            font-weight: 600;
+            color: #F1F5F9;
+            margin-bottom: 2%;
+        }  
+        footer .wrapper div.fmain div.right li img {
+            width: 48px;
+            margin-top: 37%;
+            cursor: pointer;
+        }
+        #journey .wrapper div.lmain div.tfirst div.image img{
+            width: 294px;
+        } 
+        #journey .wrapper div.lmain div.tlast img{
+            width: 291px;
+        }
+        footer .wrapper div.fmain div.right div.Contact ul.social {
+            display: flex;
+            gap: 11px;
+        } 
+        #courses .wrapper div.smain div.down ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap:30px;
+            align-items: center;
+            justify-content: center;
+        }
+        #instructor .wrapper div.imain div.Design ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap:38px;
+            justify-content: center;
+            padding-bottom: 14%;
+        }
+        #about .wrapper div.amain div.dn {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 30px;
+            transition: transform 0.5s ease;
+            justify-content: center;
+        }
+        header div.main1 {
+            display: flex;
+            gap: 16%;
+            justify-content: center;
+            margin-top: 1%;
+            margin-bottom: 4px;
+            flex-wrap: wrap;
+        }
+        #spotlight .wrapper div.main div.left h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            width: 286px;
+        }
+        #spotlight .wrapper div.main div.left p {
+            font-size: 15px;
+            font-weight: 400;
+            color: #334155;
+            width: 278px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+        #description .wrapper ul.dl {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 23px;
+            width: 100%;
+            border-bottom: 1px solid #E2E8F0;
+            margin-top: 3%;
+            padding-bottom: 22px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #description .wrapper ul.dl li {
+            font-size: 15px;
+            font-weight: 400;
+            padding: 0;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            color: #0F172A;
+            width: 200px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #spotlight .wrapper div.main div.right {
+            width: 100%;
+            box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+            border-radius: 16px;
+            position: relative;
+            background-color: white;
+            top: 0px;
+            right: 0px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-top: 7%;
+            margin-bottom: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b1 {
+            padding: 0px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.right div.mid button.b2 {
+            padding: 0;
+            height: 45px;
+            border-radius: 8px;
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 500;
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom p {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom img {
+            width: 38px;
+        }
+        #description .wrapper div.courses p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 265px;
+            line-height: 24.6px;
+        }
+        #description .wrapper div.certi {
+            width: 100%;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 832px;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 1018px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.Syllabus div.main div.front h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 3%;
+            margin-top: 2%;
+        }
+        #description .wrapper div.Syllabus div.main {
+            width: 100%;
+            padding-bottom: 4%;
+        }
+        #review .wrapper div.rmain div.rbottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 55px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top {
+            display: flex;
+            gap: 50px;
+            border: 1px solid #E2E8F0;
+            border-radius: 16px;
+            padding: 22px 13px;
+            margin-bottom: 5%;
+            flex-wrap: wrap;
+        }
+        #description .wrapper div.lp {
+            border-bottom: 1px solid #E2E8F0;
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.left ul.one {
+            display: flex;
+            gap: 6px;
+            text-align: center;
+            margin-bottom: 17px;
+            width: 52%;
+            flex-wrap: wrap;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(1) {
+            font-size: 26px;
+            font-weight: 600;
+        }
+        #spotlight .wrapper div.main div.right div.price ul li:nth-child(3) {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgba(22, 163, 74, 1);
+        }
+        #spotlight .wrapper div.main div.right div.bottom {
+            padding-top: 18px;
+            margin-left: 6%;
+        }
+        #spotlight .wrapper div.main div.right div.bottom ul {
+            display: flex;
+            gap: 4%;
+            margin-bottom: 0;
+            padding-bottom: 17px;
+        }
+        #spotlight .wrapper div.main div.right div.price ul del {
+            text-decoration: line-through;
+            font-size: 21px;
+            font-weight: 600;
+            color: rgba(148, 163, 184, 1);
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 21px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        #review .wrapper div.rmain div.rtop {
+            width: 100%;
+        }
+    
+        #review .wrapper div.rmain div.rtop h3 {
+            border-top: 1px solid #E2E8F0;
+            width: 290px;
+            padding-top: 3%;
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.lp p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 290px;
+            margin-top: 1%;
+            padding-bottom: 3%;
+            line-height: 24.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rright div.top div.right p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            width: 266px;
+            line-height: 25.6px;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0F172A;
+        }
+        #review .wrapper div.rmain {
+            width: 100%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            padding-bottom: 10%;
+        }
+        #review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small {
+            font-size: 12px;
+            font-weight: 500;
+            color: #334155;
+        }
+        #about {
+            background-color: #F8FAFC;
+            padding: 80px 0px;
+            margin-top: 3%;
+        }
+        #spotlight .wrapper div.main div.right div.rightmain div.top img {
+            width: 100%;
+        }
+        #spotlight {
+            background-color: rgba(248, 250, 252, 1);
+            padding-bottom: 3%;
+        }
+        #description .wrapper div.certi p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #334155;
+            width: 253px;
+            line-height: 24.6px;
+            padding-bottom: 2%;
+        }
+        #description .wrapper div.certi h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 10px;
+            width: 199px;
+        }
+        #description .wrapper div.dtop h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            width: 153px;
+        }
+        #description .wrapper div.dtop h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2563EB;
+            margin-bottom: 11px;
+            width: 170px;
+        }
+        #description .wrapper div.dtop {
+            padding-bottom: 16px;
+            width: 100%;
+        }
+        #description .wrapper div.dbottom div.dleft img{
+            width:77px;
+        }
+        #description .wrapper div.Syllabus div.main div.front {
+            width: 271px;
+        }
+        #description .wrapper div.Syllabus div.main div.back ul {
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            width: 100%;
+        }
+        #description .wrapper div.Syllabus div.main div.back {
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.left {
+            width: 100%;
+            margin-top: 28px;
+        }
+        #spotlight .wrapper div.main div.left ul.one li:nth-child(5) {
+            color: #2563EB;
+            width: 100%;
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul li {
+            font-size: 12px;
+            font-weight: 400;
+            color: #334155;
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul li img {
+            width: 78px;
+        }
+        #spotlight .wrapper div.main div.left div.ratings ul li:nth-child(1) {
+            font-size: 14px;
+            font-weight: 500;
+            color: #FEC84B;
+        }
+        #spotlight .wrapper div.main div.left div.review ul.two {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 20px;
+            width: 235px;
+        }
+        #spotlight .wrapper div.main div.left div.review ul.three {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            padding-bottom: 4%;
+            width: 267px;
+        }
+
+        #description .wrapper div.Syllabus div.main div.back ul li div.left p {
+            font-size: 11px;
+            font-weight: 600;
+            color: #0F172A;
+        }
+        #courses .wrapper div.smain div.down ul li span {
+            display: flex;
+            align-items: center;
+            gap: 12%;
+        }
+        #description .wrapper div.Syllabus div.main div.back ul li {
+            border-bottom: 1px solid #E2E8F0;
+            padding: 4px;
+        }
+        #description .wrapper div.Syllabus div.main div.back ul li div.left {
+            display: flex;
+            align-items: center;
+            gap: 1px;
+        }
+        #description .wrapper div.Syllabus div.main div.back ul li div.right {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        #description .wrapper div.Syllabus div.main div.back ul li div.right small {
+            font-size: 10px;
+            font-weight: 400;
+            color: #334155;
+        }
+
+    }
+
+
+       
+
+
+

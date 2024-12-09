@@ -1,0 +1,759 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter 28pt';
+}
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/') format('woff2'),
+        url('../font/Inter28pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ThinItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-MediumItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Regular.woff2') format('woff2'),
+        url('../font/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('../font/Inter28pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Light.woff2') format('woff2'),
+        url('../font/Inter28pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-LightItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Medium.woff2') format('woff2'),
+        url('../font/Inter28pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Italic.woff2') format('woff2'),
+        url('../font/Inter28pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraBold.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-BoldItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-ExtraLight.woff2') format('woff2'),
+        url('../font/Inter28pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Bold.woff2') format('woff2'),
+        url('../font/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-BlackItalic.woff2') format('woff2'),
+        url('../font/Inter28pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-ThinItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Thin.woff2') format('woff2'),
+        url('../font/Inter24pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../font/Inter28pt-Black.woff2') format('woff2'),
+        url('../font/Inter28pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-SemiBold.woff2') format('woff2'),
+        url('../font/Inter24pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Medium.woff2') format('woff2'),
+        url('../font/Inter24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-MediumItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Regular.woff2') format('woff2'),
+        url('../font/Inter24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Italic.woff2') format('woff2'),
+        url('../font/Inter24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-Light.woff2') format('woff2'),
+        url('../font/Inter24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-LightItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Inter24pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('../font/Inter24pt-ExtraLight.woff2') format('woff2'),
+        url('../font/Inter24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 90%;
+}
+button{
+    cursor: pointer;
+}
+header div.main{
+    display: flex;
+    gap:76%;
+    justify-content:center;
+    margin-top: 1%;
+    margin-bottom: 4px;
+}
+header div.main div.left{
+    display: flex;
+    gap:1%;
+    align-items: center;
+    cursor: pointer;
+}
+header div.main div.left p{
+    font-weight: 500;
+    font-size: 19px;
+    color:#334155;
+}
+header div.main div.right ul{
+    display: flex;
+    align-items: center;
+    gap:23px;
+}
+header div.main div.right ul li img{
+    width:25px;
+}
+header div.main div.right ul li:nth-child(4){
+    padding: 8px 14px;
+    background-color: #334155;
+    color: white;
+    border-radius:50% ;
+    font-size: 16px;
+    font-weight: 500;
+}
+#spotlight{
+    border-top: 1px solid rgb(224, 224, 224);
+}
+#spotlight .wrapper div.main{
+    position: relative;
+}
+#spotlight .wrapper div.main div.left ul.one{
+    display: flex;
+    gap:10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#spotlight .wrapper div.main div.left ul.one li img{
+    width:25px;
+}
+#spotlight .wrapper div.main div.left ul.one li{
+    color:#334155;
+    font-size: 17px;
+    font-weight: 400;
+}
+#spotlight .wrapper div.main div.left ul.one li:nth-child(5){
+    color:#2563EB;
+    
+}
+#spotlight .wrapper div.main div.left h3{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#spotlight .wrapper div.main div.left p{
+    font-size: 17px;
+    font-weight: 400;
+    color:#334155;
+    width:767px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 21px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li{
+    font-size:14px;
+    font-weight: 400;
+    color:#334155;
+    
+}
+#spotlight .wrapper div.main div.left{
+    width:50%;
+    margin-top: 45px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li:nth-child(1){
+    font-size: 17px;
+    font-weight:500;
+    color:#FEC84B;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li img{
+    width:98px;
+}
+#spotlight .wrapper div.main div.left div.ratings ul li:nth-child(4){
+    display: inline-block;
+    font-size: 12px;
+    height: 15px;
+    color:#334155;
+}
+#spotlight .wrapper div.main div.left div.review ul.two{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    margin-bottom: 20px;
+}
+#spotlight .wrapper div.main div.left div.review ul.two li:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(51, 65, 85, 1);  
+}
+#spotlight .wrapper div.main div.left div.review ul.two li:nth-child(2) b{
+    font-weight: normal;
+    font-size: 15px;
+    color:rgba(37, 99, 235, 1); 
+}
+#spotlight .wrapper div.main div.left div.review ul.three{
+    display: flex;
+    align-items: center;
+    gap:9px;
+    padding-bottom: 4%;
+}
+#spotlight .wrapper div.main div.left div.review ul.three li:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(51, 65, 85, 1);
+    
+}
+#spotlight{
+    background-color: rgba(248, 250, 252, 1);
+    
+}
+#spotlight .wrapper div.main div.right{
+    width: 401px;
+    box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+    border-radius: 16px;
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    right:0px;
+}
+
+#spotlight .wrapper div.main div.right div.price ul{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 7%;
+}
+#spotlight .wrapper div.main div.right div.bottom ul{
+    display: flex;
+    gap:20px;
+    margin-bottom: 6%;
+}
+#spotlight .wrapper div.main div.right div.price ul li:nth-child(1){
+    font-size: 24px;
+    font-weight: 600;
+}
+#spotlight .wrapper div.main div.right div.price ul del{
+    text-decoration:line-through;
+    font-size: 19px;
+    font-weight: 600;
+    color:rgba(148, 163, 184, 1);
+}
+#spotlight .wrapper div.main div.right div.price ul li:nth-child(3){
+    font-size: 22px;
+    font-weight: 600;
+    color:rgba(22, 163, 74, 1);
+}
+#spotlight .wrapper div.main div.right div.mid button.b1{
+    padding: 16px 140px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+#spotlight .wrapper div.main div.right div.mid button.b2{
+    padding: 14px 149px;
+    border-radius: 8px;
+    border: 1px solid black;
+    color:black;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#spotlight .wrapper div.main div.right div.mid{
+    padding-bottom: 4px;
+}
+#spotlight .wrapper div.main div.right div.bottom{
+    padding-top: 30px;
+    margin-left: 6%;
+}
+#spotlight .wrapper div.main div.right div.rightmain{
+    padding: 22px;
+}
+#spotlight .wrapper div.main div.right div.bottommain{
+    border-top: 1px solid #E2E8F0;
+}
+#spotlight .wrapper div.main div.right div.bottom p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+#spotlight .wrapper div.main div.right div.bottom img{
+    width:51px;
+}
+#description .wrapper ul.dl{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:24px;
+    width:1275px;
+    border-bottom: 1px solid #E2E8F0;
+    margin-top: 3%;
+    padding-bottom: 22px;
+}
+#description .wrapper ul.dl li{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 21px 54px;
+    border:1px solid #E2E8F0;
+    border-radius: 8px;
+    color:#0F172A;  
+}
+#description .wrapper ul.dl li:nth-child(1){
+    background-color:#EFF6FF;
+}
+#description .wrapper ul.dl li:hover{
+    background-color:#EFF6FF;
+    cursor: pointer;
+    
+}
+#description .wrapper div.courses{
+    margin-bottom: 2%;
+}
+#description .wrapper div.courses h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-bottom: 10px;
+}
+#description .wrapper div.courses p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width: 810px;
+    line-height: 24.6px;
+    
+}
+#description .wrapper div.certi h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-bottom: 10px;
+}
+#description .wrapper div.certi{
+    width:1275px;
+    border-bottom: 1px solid #E2E8F0;
+}
+#description .wrapper div.certi p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width: 777px;
+    line-height: 24.6px;
+    padding-bottom: 1%;
+    
+}
+#description .wrapper div.dbottom{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#description .wrapper div.dbottom ul li{
+  display: flex;
+  gap:5px;
+  align-items: center;
+  line-height: 2px;
+}
+#description .wrapper div.dtop h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+}
+#description .wrapper div.dtop h2{
+    font-size: 20px;
+    font-weight: 600;
+    color:#2563EB;
+    margin-bottom: 11px;
+    
+}
+#description .wrapper div.dtop{
+    padding-bottom: 16px;
+}
+#description .wrapper div.dtop small{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    
+}
+#description .wrapper div.dbottom ul li img{
+    padding-bottom: 4px;
+}
+#description .wrapper div.dbottom ul li span{
+    font-size: 14px;
+    font-weight: 400;
+    color:#0F172A;
+    
+}
+#description .wrapper div.lp{
+    border-bottom: 1px solid #E2E8F0;
+    width: 1275px;
+}
+#description .wrapper div.lp p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width: 782px;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    line-height: 24.6px;
+    
+}
+#description .wrapper div.Syllabus{
+    width: 1245px;
+}
+#description .wrapper div.Syllabus div.main div.front h3{
+    font-size: 21px;
+    font-weight: 600;
+    color:#0F172A;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#description .wrapper div.Syllabus div.main div.back ul li{
+    display: flex;
+    justify-content: space-between;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.left{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.right{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+#description .wrapper div.Syllabus div.main div.back ul{
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.left p{
+    font-size: 18px;
+    font-weight: 600;
+    color:#0F172A;
+}
+#description .wrapper div.Syllabus div.main div.back ul li div.right small{
+    font-size: 14px;
+    font-weight: 400;
+    color:#334155;
+}
+#description .wrapper div.Syllabus div.main div.back ul li {
+    border-bottom: 1px solid #E2E8F0;
+    padding: 21px 21px;
+    
+}
+#description .wrapper div.Syllabus div.main{
+    width: 1235px;  
+    padding-bottom: 2%;
+}
+#review{
+    padding-bottom: 20px;
+}
+#review .wrapper div.rmain div.rtop h3{
+    border-top: 1px solid  #E2E8F0;
+    width: 1278px;
+    padding-top: 2%;
+    font-size: 21px;
+    font-weight: 600;
+    color: #0F172A;
+    padding-bottom: 2%;
+}
+#review .wrapper div.rmain{
+    width: 1215px;
+}
+#review .wrapper div.rmain div.rbottom{
+    display: flex;
+    justify-content: space-between;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top{
+    display: flex;
+    gap: 135px;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 22px 22px;
+    margin-bottom: 3%;
+
+}
+#review .wrapper div.rmain div.rbottom div.rright a.button{
+    color: #0F172A;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #0F172A;
+    border-radius: 8px;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.left ul li{
+    display: flex;
+    align-items: center;
+    gap:13px;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right ul li{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    margin-bottom: 3%;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.left ul li p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F172A;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#334155;
+    width:570px;
+    line-height: 25.6px;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.first1 li{
+    display: flex;
+    gap:8px;
+    align-items: center;
+    padding-bottom: 10%;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.first1 li small{
+    font-size: 14px;
+    font-weight: 500;
+    color:#334155;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.second2 li{
+    display: flex;
+    align-items: center;
+    line-height: 28.6px;
+    gap:8px;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.second2 li span{
+    font-size: 14px;
+    font-weight: 400;
+    color:#334155;
+}
+#review .wrapper div.rmain div.rbottom div.rleft ul.first1 li h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:#0F172A;
+    
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right ul li h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F172A;
+}
+#review .wrapper div.rmain div.rbottom div.rright div.top div.right ul li small{
+    font-size: 14px;
+    font-weight: 400;
+    color:#334155;
+    margin-left: 3%;
+    
+}
+
